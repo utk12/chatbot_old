@@ -48,8 +48,6 @@ def projectCSVData():
 			for word in words:	
 				if word not in stop:
 					word_list.append(word)
-	if 'bc' in word_list:
-		print "yo"
 	return list(set(word_list))
 
 

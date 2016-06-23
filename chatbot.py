@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 import pandas as pd
 import math,string,time,sys
 pd.set_option('expand_frame_repr', False)
-data = pd.read_csv('/home/utkarsh/roofpik/ml_task/chatbot/data3.csv')
+data = pd.read_csv('Data/data3.csv')
 data = pd.DataFrame(data)
 #print(data)
 #==============================================================================
