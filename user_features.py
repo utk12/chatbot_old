@@ -42,7 +42,6 @@ def get_feature_dictionary():
 
 
 def updateJson(user, userDict):
-	print "yo"
 	body = {
 		"doc" : userDict
 	}
@@ -54,17 +53,17 @@ def updateUser(user, intent, features):
 	userDict = getUserDoc(user)
 	for i in features:
 		if i in userDict[intent]:
-			userDict[intent][i]['found_value'] = 1
+			userDict[intent][i]['foundValue'] = 1
 			nfeatures = len(userDict[intent][i]['children'])
-			userDict[intent][i]['prefer_count'] = nfeatures/2 + (nfeatures == 1)
-			userDict[intent][i]['factor_value'] += 0.5
+			userDict[intent][i]['preferCount'] = nfeatures/2 + (nfeatures == 1)
+			userDict[intent][i]['factorValue'] += 0.5
 		else :
 			for child in userDict[intent]:
 				if i in userDict[intent][child]["children"]:
 					temp = userDict[intent][child]["children"][i] 
 					userDict[intent][child]["children"][i] = 1
-					userDict[intent][child]['found_value'] = 1
-					userDict[intent][child]['prefer_count'] += abs(temp-1)
+					userDict[intent][child]['foundValue'] = 1
+					userDict[intent][child]['preferCount'] += abs(temp-1)
 					break
 	updateJson(user,userDict)
 
@@ -75,9 +74,9 @@ def getUserVector(user, intent):
 	userDict = getUserDoc(user)[intent]
 	vec = []
 	for category in userDict:
-		a = float(userDict[category]['found_value'])
-		b = float(userDict[category]['prefer_count'])
-		c = float(userDict[category]['factor_value'])
+		a = float(userDict[category]['foundValue'])
+		b = float(userDict[category]['preferCount'])
+		c = float(userDict[category]['factorValue'])
 		vec.append(a*b*c)
 	vec = np.array(vec)
 	print vec
