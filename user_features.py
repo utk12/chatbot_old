@@ -98,5 +98,3 @@ createJSON(getUserId())
 
 # feature_dict = get_feature_dictionary()
 # features = get_features(user_query)
-
-

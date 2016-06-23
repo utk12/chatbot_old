@@ -30,6 +30,16 @@ def get_entities_json_wit(json_object):
 			entities = json_object[key]
 	return entities
 
+def interpret_wit_output(json_object):
+	# list1 = []
+	dict1 = {}
+	for key in json_object:
+		for k,v in json_object[key][0].iteritems():
+			if k == 'value':
+				# list1.append(json_object[key][0][k])
+				dict1[key]=json_object[key][0][k]
+	return dict1
+
 if __name__ == '__main__':
 	message = raw_input('Enter a message\n')
 	print json.dumps(get_entities_wit(message),indent = 4)
