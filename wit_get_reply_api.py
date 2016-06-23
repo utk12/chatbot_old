@@ -34,10 +34,10 @@ def interpret_wit_output(json_object):
 	# list1 = []
 	dict1 = {}
 	for key in json_object:
-		for k,v in json_object[key][0].iteritems():
-			if k == 'value':
-				# list1.append(json_object[key][0][k])
-				dict1[key]=json_object[key][0][k]
+		dict1[key] = {}
+		for i in range(len(json_object[key])):
+			dict1[key][json_object[key][i]['value']] = True
+
 	return dict1
 
 if __name__ == '__main__':
