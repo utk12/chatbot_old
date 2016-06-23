@@ -4,16 +4,13 @@ from string import ascii_lowercase
 import json
 import numpy as np
 
-
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 def genRandString(n):
 	return (''.join(choice(ascii_lowercase) for i in range(n)))
 
-
 def getUserId():
 	return genRandString(8)
-
 
 def createJSON(user):
 	with open('Data/user_features.json', 'r') as f:
@@ -29,7 +26,6 @@ def getUserDoc(user):
 		}
 	}
 	return es.search(index='chatbot', doc_type='users', body = body)['hits']['hits'][0]['_source']
-
 
 def get_feature_dictionary():
 	with open('features.json', 'r') as f:
@@ -98,15 +94,10 @@ def getUserVector(user, intent):
 # print getUserVector('uyzpanbd', 'buy')
 # updateUser('uyzpanbd', 'buy', ['security', 'amenities', '2BHK'])
 # print getUserDoc('hndwkoiq')
-# createJSON(getUserId())
+createJSON(getUserId())
 
 
 # feature_dict = get_feature_dictionary()
 # features = get_features(user_query)
 
 
-
-
-
-# user = getUserId()
-# createJSON(user)

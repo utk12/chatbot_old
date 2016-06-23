@@ -6,11 +6,11 @@ Created on Tue Jun 21 15:18:31 2016
 """
 
 import json
-with open('/home/utkarsh/roofpik/features_roofpik/json_features/project.json') as project:
+with open('Data/project.json') as project:
     pfs = json.loads(project.read())
 #pfs = project feature set
 #print(pfs)
-with open('/home/utkarsh/roofpik/features_roofpik/json_features/project_data.json') as project_data:
+with open('Data/project_data.json') as project_data:
     pd = json.loads(project_data.read())
 #pd = project dataset
 #print(pd)
