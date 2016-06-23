@@ -1,0 +1,296 @@
+{
+  "buy": {
+    "projectType": {
+      "ratioScore": 0,
+      "children": {
+        "apartment": 0,
+        "villa": 0,
+        "row-house": 1,
+        "studio": 1,
+        "servicedApartment": 1
+      }
+    },
+    "accommodation": {
+      "ratioScore": 0,
+      "children": {
+        "1BHK": 0,
+        "2BHK": 0,
+        "3BHK": 0,
+        "4BHK": 0,
+        "5BHK": 0,
+        "6+BHK": 0
+      }
+    },
+    "possession": {
+      "ratioScore": 0,
+      "children": {
+        "newlyLaunched": 0,
+        "underConstruction": 0,
+        "readyToMove": 0
+        }
+    },
+    "price": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "size": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "amenities": {
+      "ratioScore": 0,
+      "children": {
+        "football": 0,
+        "cricket": 0,
+        "badminton": 0,
+        "tennis": 0,
+        "basketball": 0,
+        "pitchAndPutt": 0,
+        "skatingRink": 0,
+        "volleyball": 0,
+        "amphitheatre": 0,
+        "tableTennis": 0,
+        "squash": 0,
+        "swimmingPool": 0,
+        "poolTable": 0,
+        "snookerTable": 0,
+        "bowlingAlley": 0,
+        "joggingTrack": 0,
+        "restaurant": 0,
+        "yogaRoom": 0,
+        "aerobicsRoom": 0,
+        "danceRoom": 0,
+        "musicRoom": 0,
+        "salon": 0,
+        "spa": 0,
+        "gym": 0,
+        "videoGames": 0,
+        "miniTheatre": 0,
+        "kidsZone": 0,
+        "bar": 0,
+        "cafe": 0,
+        "businessCentre": 0,
+        "guestRoom": 0,
+        "steamRoom": 0,
+        "saunaRoom": 0,
+        "jacuzzi": 0
+      }
+    },
+    "security": {
+      "ratioScore": 0,
+      "children": {
+        "cctvTower": 0,
+        "guardsTower": 0,
+        "cctvMaingate": 0,
+        "guardsMaingate": 0,
+        "intercomMaingate": 0,
+        "boomBarriersMaingate": 0,
+        "tagsForVehicles": 0,
+        "stickersForVehicles": 0
+      }
+    },
+    "nearby": {
+      "ratioScore": 0,
+      "children": {
+        "school": 0,
+        "hospital": 0,
+        "clubs": 0,
+        "restaurant": 0,
+        "mall": 0,
+        "preSchool": 0,
+        "daycare": 0,
+        "market": 0,
+        "pharmacy": 0,
+        "bank": 0,
+        "atm": 0,
+        "park": 0,
+        "metroStation": 0,
+        "sportsComplex": 0
+      }
+    },
+    "specifications": {
+      "ratioScore": 0,
+      "children": {
+        "homeAutomation": 0,
+        "fullyFurnished": 0,
+        "airConditioning": 0,
+        "vrvAirConditioning": 0,
+        "modularKitchen": 0,
+        "kitchenDishWasher": 0,
+        "wardrobes": 0,
+        "showerCubicle": 0,
+        "bathTub": 0,
+        "lift": 0,
+        "parking": 0,
+        "visitorParking": 0,
+        "powerBackup": 0,
+        "maintenance": 0,
+        "vastuCompliant": 0
+      }
+    },
+    "rating": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  },
+  "rent": {
+    "projectType": {
+      "ratioScore": 0,
+      "children": {
+        "apartment": 0,
+        "villa": 0,
+        "row-house": 0,
+        "studio": 0,
+        "servicedApartment": 0
+      }
+    },
+    "accommodation": {
+      "ratioScore": 0,
+      "children": {
+        "1BHK": 0,
+        "2BHK": 0,
+        "3BHK": 0,
+        "4BHK": 0,
+        "5BHK": 0,
+        "6+BHK": 0
+      }
+    },
+    "possession": {
+      "ratioScore": 0,
+      "children": {
+        "newlyLaunched": 0,
+        "underConstruction": 0,
+        "newlyConstructed": 0,
+        "nearToCompletion": 0,
+        "existing": 0
+      }
+    },
+    "price": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "size": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "amenities": {
+      "ratioScore": 0,
+      "children": {
+        "football": 0,
+        "cricket": 0,
+        "badminton": 0,
+        "tennis": 0,
+        "basketball": 0,
+        "pitchAndPutt": 0,
+        "skatingRink": 0,
+        "volleyball": 0,
+        "amphitheatre": 0,
+        "tableTennis": 0,
+        "squash": 0,
+        "swimmingPool": 0,
+        "poolTable": 0,
+        "snookerTable": 0,
+        "bowlingAlley": 0,
+        "joggingTrack": 0,
+        "restaurant": 0,
+        "yogaRoom": 0,
+        "aerobicsRoom": 0,
+        "danceRoom": 0,
+        "musicRoom": 0,
+        "salon": 0,
+        "spa": 0,
+        "gym": 0,
+        "videoGames": 0,
+        "miniTheatre": 0,
+        "kidsZone": 0,
+        "bar": 0,
+        "cafe": 0,
+        "businessCentre": 0,
+        "guestRoom": 0,
+        "steamRoom": 0,
+        "saunaRoom": 0,
+        "jacuzzi": 0
+      }
+    },
+    "security": {
+      "ratioScore": 0,
+      "children": {
+        "cctvTower": 0,
+        "guardsTower": 0,
+        "cctvMaingate": 0,
+        "guardsMaingate": 0,
+        "intercomMaingate": 0,
+        "boomBarriersMaingate": 0,
+        "tagsForVehicles": 0,
+        "stickersForVehicles": 0
+      }
+    },
+    "nearby": {
+      "ratioScore": 0,
+      "children": {
+        "school": 0,
+        "hospital": 0,
+        "clubs": 0,
+        "restaurant": 0,
+        "mall": 0,
+        "preSchool": 0,
+        "daycare": 0,
+        "market": 0,
+        "pharmacy": 0,
+        "bank": 0,
+        "atm": 0,
+        "park": 0,
+        "metroStation": 0,
+        "sportsComplex": 0
+      }
+    },
+    "specifications": {
+      "ratioScore": 0,
+      "children": {
+        "homeAutomation": 0,
+        "fullyFurnished": 0,
+        "airConditioning": 0,
+        "vrvAirConditioning": 0,
+        "modularKitchen": 0,
+        "kitchenDishWasher": 0,
+        "wardrobes": 0,
+        "showerCubicle": 0,
+        "bathTub": 0,
+        "lift": 0,
+        "parking": 0,
+        "visitorParking": 0,
+        "powerBackup": 0,
+        "maintenance": 0,
+        "vastuCompliant": 0
+      }
+    },
+    "rating": {
+      "ratioScore": 0,
+      "children": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  } 
+}

@@ -1,0 +1,53 @@
+S.No.,User_query,Bot_reply,Relevant
+1,I want a place to live in Gurgaon.,"Sure,do you have a particular area in mind?",Yes
+2,Show me the weather in Gurgaon.,We don't have that facility right now.,No
+3,Can you show me a place where I can play tennis?,"Yeah,sure.",Yes
+4,Hello there.How can you help me?,Hi ! I can help you find places to rent or purchase in Gurgaon.,Yes
+5,abds eijf oeljd,"Sorry,I cannot interpret that.Please ask me about real estate projects.",No
+6,I am looking for a 2BHK apartment ,"Great, are you looking to rent or buy the apartment?",Yes
+7,I want to rent ,Do you have a locality or project in mind?,Yes
+8,Want to buy a 4BHK on Sohna Road,"Great, do you have a budget in mind?",Yes
+9,Do you have properties on Golf Course Road?,"Yes, we have X number of properties. Are you looking to buy or rent?",Yes
+10,What areas do you have in Gurgaon?,"We have six localities you can chose from: Sohna Road, Golf Course Road, Golf Course Extension Road, Dwarka Expressway, New Gurgaon and M.G Road. Which locality are you interested in?",Yes
+11,Do you have properties to rent or buy?,We have properties to rent and buy. What are you looking for?,Yes
+12,"I want a penthouse, what is the price?","The price will depend on the locality and project, do you have this is mind?",Yes
+13,I need a PG place on Golf Course Extension,"I am sorry, we are not currently able to provide this information. ",Yes
+14,"Can I rent a 2BHK for 30,000?",We have X number of 2BHK apartments within this budget. Which locality are you looking for?,Yes
+15,What is the weather like in Gurgaon?,"I am sorry, we are not currently able to provide this information. Please ask me about real estate projects. ",No
+16,Do you only have properties in Gurgaon?,"Yes, at the moment. However, we are working on expanding this. Watch this space!",Yes
+17,I want an apartment in Shispal Vihar.,"Great, do you have a budget in mind?",Yes
+18,I want to see apartments available by DLF.,"Sure, we have X number of apartments. Do you have a locality in mind?",Yes
+19,I need a Vipul Group apartment on Golf Course Road ,"Great, we have X number of apartments by Vipul Group on golf Course Road. Do you have a budget in mind?",Yes
+20,I want an apartment near Heritage School.,We have X number of properties near Hertitage School. Do you have a budget or project in mind?,Yes
+21,"I want an apartment with a swimming pool, budget of 50,000","Great, do you have a locality or project in mind?",Yes
+22,I want an apartment with a clubhouse which has a gym on M.G. Road,"Okay, we have X number of properties that meet your needs. Do you have a budget in mind?",Yes
+23,How many projects are there in Gurgaon?,We currently have X number of projects in Gurgaon. Can we help you find a place?,Yes
+24,How many under construction projects have DLF got?,There are currently X number of under construction projects by DLF. Are you looking for a place to buy?,Yes
+25,I want an apartment. Can you show me ones on M.G Road?,"Yes, we have X number of properties. Are you looking to buy or rent?",Yes
+26,I need help. Can you help me?,"Yes, of course. Are you looking to buy or rent a property?",Yes
+27,I want to buy. Can you also show me places in New Gurgaon?,"Yes, of course. We currently have X number of propoeries. Do you have a budget in mind?",Yes
+28,I want a place in Pune. Can you show me these?,"Unfortunately, we do not have information for Pune at this stage. Can I help you with anything in Gurgaon?",No
+29,"I want a place to buy. How many places do you have above 70,000?",We have X number of properties in Gurgaon. Do you have a locality or project in mind?,Yes
+30,I am tired ,I am sorry I am not able to interpret that. Please ask me something else.,No
+31,Can someone from your team call me?,"I am sorry we do not offer that facility. However, please view our contact us page to get in touch with us.",No
+32,Do you have any jobs?,"I am unable to answer, please contact us to speak to someone in the team. ",No
+33,Is Emaar a good developer?,"We provide a review and rating system, so you can view this for all Emaar projects in Gurgaon.",No
+34,I am hot ,"Sorry,I cannot interpret that.Please ask me about real estate projects.",No
+35,Do most projects have worker clearance? ,We have X number of projects in Gurgaon that offer this facility. Do you have a locality in mind?,Yes
+36,I want an apartment in GGN,Do you have any area in your mind?,Yes
+37,I want a flat in gurugram,"Yeah, sure. Any particular area?",Yes
+38,Spacious apartment in GGN,Ohk. Do you have a budget in mind?,Yes
+39,I want an apartment in ggn with a great golf course.,Sure. We have 'X' societies with golf courses. Do you have any particular area in mind?,Yes
+40,I want an apartment near Sohna Road,"Yes, there are X number of societies near Sohna Road. Do you have any preferred developer?",Yes
+41,I want to buy an apartment which is under construction.,Do you have any area in your mind?,Yes
+42,"Hey, can you help me out?","Yes, sure. What are you looking for?",Yes
+43,I want an office space on Sohna road.,"I am sorry, we currently cover only residential spaces.",Yes
+44,Can you suggest some good brokers to find a flat in M.G.Rad?,I am sorry. We don’t deal with brokers.,Yes
+45,Do you deliver food too?,"Sorry,I cannot interpret that.Please ask me about real estate projects.",No
+46,I want a place to stay in Delhi,I am sorry. We currently cover only Gurgaon. Can I help you with anything in Gurgaon?,Yes
+47,Can you suggest a society with good sports facilities?,"Yes, sure. Do you have any area in your mind?",Yes
+48,I want an aparmtent in Delhi NCR.,We currently cover only Gurgaon under NCR.,Yes
+49,Who are the top developers in Gurgaon?,We provide a rating and review system of all the developers.,Yes
+50,I want an apartment in Vipul Greens,Great. What property type are you looking for?,Yes
+51,I am hungry,"Sorry,I cannot interpret that.Please ask me about real estate projects.",No
+52,abcd efgh ijkl mnop,"Sorry,I cannot interpret that.Please ask me about real estate projects.",No
