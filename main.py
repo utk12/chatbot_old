@@ -7,4 +7,6 @@ if __name__ == '__main__':
 	message =  main(message)
 	output_wit=get_output_wit(message)	#this is whole output from wit
 	entities = get_entities_json_wit(output_wit) #this is json object of entities from wit.
-	print json.dumps(output_wit,indent = 4)
+	dict_features = interpret_wit_output(entities)
+	print json.dumps(entities,indent = 4)
+	print dict_features
