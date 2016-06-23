@@ -16,7 +16,7 @@ def getUserId():
 
 
 def createJSON(user):
-	with open('user_features.json', 'r') as f:
+	with open('Data/user_features.json', 'r') as f:
 		data = f.read()
 	es.index(index='chatbot', doc_type='users', id=user, body=data)
 
