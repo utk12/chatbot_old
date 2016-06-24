@@ -34,13 +34,14 @@ def get_feature_dictionary():
 	for intent in data:
 		feature_dict[intent] = {}
 		for category in data[intent]:
-			feature_dict[intent][category] = []
+			category_new = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), category))
+			feature_dict[intent][category_new] = []
 			for subcategory in data[intent][category]['children']:
 				if 'BHK' in subcategory:
 					subcategory = subcategory.lower()
 				else:
 					subcategory = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), subcategory))
-				feature_dict[intent][category].append(subcategory)
+				feature_dict[intent][category_new].append(subcategory)
 	return feature_dict
 
 
@@ -98,7 +99,7 @@ def getUserVector(user, intent):
 # updateUser('uyzpanbd', 'buy', ['security', 'amenities', '2BHK'])
 # print getUserDoc('hndwkoiq')
 # createJSON(getUserId())
-print get_feature_dictionary()
+# print get_feature_dictionary()
 
 # feature_dict = get_feature_dictionary()
 # features = get_features(user_query)
