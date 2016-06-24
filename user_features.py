@@ -91,9 +91,6 @@ def getUserVector(user, intent):
 		unit_vec = vec
 	return unit_vec
 
-
-
-
 # print getUserVector('uyzpanbd', 'buy')
 # updateUser('uyzpanbd', 'buy', ['security', 'amenities', '2BHK'])
 # print getUserDoc('hndwkoiq')

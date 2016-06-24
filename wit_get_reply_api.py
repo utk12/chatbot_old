@@ -46,7 +46,6 @@ def interpret_wit_output(json_object):
 
 	return dict1
 
-
 if __name__ == '__main__':
 	message = raw_input('Enter a message\n')
 	print json.dumps(get_entities_wit(message),indent = 4)
