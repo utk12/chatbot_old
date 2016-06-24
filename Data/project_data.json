@@ -6,7 +6,9 @@
       "builder": "",
       "address": {
         "location": "",
-        "sector": "",
+        "city_id":"",
+        "address_line1":"",
+        "address_line2":"",
         "zone": "",
         "landmark": ""
       },
@@ -36,7 +38,6 @@
       },
       "carParking": "",
       "visitorCarParking": "",
-      "totalParkingSpace": "",
       "vastuCompliant": ""
     },
     "rwa": {
@@ -109,8 +110,7 @@
       "waitingLoungeInTower": "",
       "airConditioningInWaitingLounge": "",
       "petFriendly": "",
-      "wheelchairFriendly": "",
-      "carWash": ""
+      "wheelchairFriendly": ""
     },
     "security": {
       "mainGate": {
