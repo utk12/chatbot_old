@@ -24,6 +24,12 @@ def get_output_wit(message):
 	obj = json.loads(r.text)
 	return obj
 
+def get_entities_list_wit():
+	r = requests.get('https://api.wit.ai/entities',
+		headers = {'Authorization': 'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'})
+	obj = r.text
+	return obj
+
 def get_entities_json_wit(json_object):
 	for key,value in json_object.iteritems():
 		if key == 'entities':
@@ -39,6 +45,7 @@ def interpret_wit_output(json_object):
 			dict1[key][json_object[key][i]['value']] = True
 
 	return dict1
+
 
 if __name__ == '__main__':
 	message = raw_input('Enter a message\n')
