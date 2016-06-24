@@ -42,9 +42,9 @@
       "preferCount": 0,
       "factorValue": 0.3,
       "children": {
-        "high": 0,
-        "medium": 0,
-        "low": 0
+        "price_high": 0,
+        "price_medium": 0,
+        "price_low": 0
       }
     },
     "size": {
@@ -52,9 +52,9 @@
       "preferCount": 0,
       "factorValue": 0.5,
       "children": {
-        "high": 0,
-        "medium": 0,
-        "low": 0
+        "size_high": 0,
+        "size_medium": 0,
+        "size_low": 0
       }
     },
     "amenities": {
@@ -153,7 +153,11 @@
         "visitorParking": 0,
         "powerBackup": 0,
         "maintenance": 0,
-        "vastuCompliant": 0
+        "vastuCompliant": 0,
+        "wheelChairFriendly": 0,
+        "servantRoom": 0,
+        "petFriendly": 0,
+        "storeRoom": 0
       }
     },
     "rating": {
@@ -161,9 +165,9 @@
       "preferCount": 0,
       "factorValue": 0.9,
       "children": {
-        "high": 0,
-        "medium": 0,
-        "low": 0
+        "rating_high": 0,
+        "rating_medium": 0,
+        "rating_low": 0
       }
     }
   }
