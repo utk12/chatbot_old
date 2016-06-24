@@ -8,29 +8,34 @@ def get_message_format_wit(str):
 
 def get_say_action_wit(message):
 	message = get_message_format_wit(message)
-	r = requests.post('https://api.wit.ai/converse?v=20160624&session_id=8&q='+str(message),
-		headers = {'Authorization': 'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'})
+	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
+	url = 'https://api.wit.ai/converse?v=20160624&session_id=8&q='+str(message)
+	r = requests.post(url=url,headers = headers)
 	obj = json.loads(r.text)
 	while(obj['type'] != 'msg'):
 		r = requests.post('https://api.wit.ai/converse?v=20160624&session_id=8',data={},
-			headers = {'Authorization': 'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'})
+			headers = headers)
 		obj = json.loads(r.text)
 	return obj['msg']
 
 def get_output_wit(message):
+	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
 	message = get_message_format_wit(message)
-	r = requests.post('https://api.wit.ai/message?v=20160624&session_id=8&q='+str(message),
-		headers = {'Authorization': 'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'})
+	url = 'https://api.wit.ai/message?v=20160624&session_id=8&q='+str(message)
+	r = requests.post(url=url,headers = headers)
 	obj = json.loads(r.text)
 	return obj
 
 def get_entities_list_wit():
-	r = requests.get('https://api.wit.ai/entities',
-		headers = {'Authorization': 'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'})
+	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
+	url = 'https://api.wit.ai/entities'
+	r = requests.get(url=url,headers = headers)
 	obj = r.text
 	return obj
 
-def get_entities_json_wit(json_object):
+def get_entities_json_wit(message):
+	json_object = get_output_wit(message)
+	entities = {}
 	for key,value in json_object.iteritems():
 		if key == 'entities':
 			entities = json_object[key]
@@ -38,6 +43,7 @@ def get_entities_json_wit(json_object):
 
 def create_new_entity_wit(entity,values):
 	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
+	url	= 'https://api.wit.ai/entities?v=20160624'
 	data = {}
 	data['id'] = entity
 	data['values'] = []
@@ -46,8 +52,27 @@ def create_new_entity_wit(entity,values):
 		dict1['value'] = item
 		data['values'].append(dict1)
 	data = json.dumps(data)
-	r=requests.post('https://api.wit.ai/entities?v=20160624',headers = headers,data = data)
-	return r.text
+	r=requests.post(url=url,headers = headers,data = data)
+
+def delete_entity(entity):
+	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
+	r = requests.delete('https://api.wit.ai/entities/'+str(entity)+'?v=20160624',
+		headers = headers)
+
+def add_new_value_entity(entity,value):
+	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
+	url = 'https://api.wit.ai/entities/'+str(entity)+'/values?v=20160624'
+	data = {}
+	# data['values'] = []
+	# for item in values:
+	# 	dict1 = {}
+	# 	dict1['value'] = item
+	# 	data['values'].append(dict1)
+	# data = json.dumps(data)
+	data['value'] = value
+	data = json.dumps(data)
+	r = requests.post(url=url,headers=headers,data=data)
+	print r.text
 
 def interpret_wit_output(json_object):
 	# list1 = []
@@ -60,6 +85,9 @@ def interpret_wit_output(json_object):
 	return dict1
 
 if __name__ == '__main__':
-	entity = 'trial'
-	values = ['1','2']
-	print create_new_entity_wit(entity,values)
+	# entity = 'trial'
+	# values = ['1','2']
+	# create_new_entity_wit(entity,values)
+	# delete_entity('trial')
+	# value = '3'
+	# add_new_values_entity(entity,value)
