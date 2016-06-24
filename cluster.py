@@ -37,7 +37,7 @@ mbk.fit(X)
 mbk_means_labels = mbk.labels_
 mbk_means_cluster_centers = mbk.cluster_centers_
 # mbk_means_labels_unique = np.unique(mbk_means_labels)
-
+print mbk_means_labels
 print("Mini batch clustering completed")
 print("Time lapsed : "+str(time.time()-t0))
 

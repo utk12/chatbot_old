@@ -28,7 +28,7 @@ def getUserDoc(user):
 	return es.search(index='chatbot', doc_type='users', body = body)['hits']['hits'][0]['_source']
 
 def get_feature_dictionary():
-	with open('features.json', 'r') as f:
+	with open('Data/user_features.json', 'r') as f:
 		data = json.loads(f.read())
 	feature_dict = {}
 	for intent in data:
@@ -36,6 +36,10 @@ def get_feature_dictionary():
 		for category in data[intent]:
 			feature_dict[intent][category] = []
 			for subcategory in data[intent][category]['children']:
+				if 'BHK' in subcategory:
+					subcategory = subcategory.lower()
+				else:
+					subcategory = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), subcategory))
 				feature_dict[intent][category].append(subcategory)
 	return feature_dict
 
@@ -93,8 +97,8 @@ def getUserVector(user, intent):
 # print getUserVector('uyzpanbd', 'buy')
 # updateUser('uyzpanbd', 'buy', ['security', 'amenities', '2BHK'])
 # print getUserDoc('hndwkoiq')
-createJSON(getUserId())
-
+# createJSON(getUserId())
+print get_feature_dictionary()
 
 # feature_dict = get_feature_dictionary()
 # features = get_features(user_query)

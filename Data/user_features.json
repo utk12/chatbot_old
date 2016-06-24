@@ -7,7 +7,7 @@
       "children": {
         "apartment": 0,
         "villa": 0,
-        "row-house": 0,
+        "rowHouse": 0,
         "studio": 0,
         "servicedApartment": 0
       }
