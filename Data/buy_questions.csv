@@ -1,4 +1,4 @@
-sn,Key_1,Key_2,Key_3,bot_question,user_question
+sn,key_1,key_2,key_3,bot_question,user_question
 1,buy,,,Are you looking to buy property?,Can you suggest some properties to buy?
 2,,Project Type,,"Okay, what project type is suitable for you?",What project types are you having?
 3,,,Apartment,Would you like me to show you apartments?,Do you have apartments?
@@ -6,7 +6,7 @@ sn,Key_1,Key_2,Key_3,bot_question,user_question
 5,,,Row House,Are you looking for row houses?,Do you have any Row House?
 6,,,Studio,Would studio apartment be a prefered choice?,Are you having any Studio Apartments?
 7,,,Service Apartment,Would you like me to search for Serviced Apartments?,Can you show me some service apartments?
-8,,Accomodation,,How many bedrooms do you want in your choice of property?,
+8,,Accommodation,,How many bedrooms do you want in your choice of property?,can you show me properties having 1bhk accomodation facilities?
 9,,,1 bhk,Are you looking for a 1BHK?,Can you show me some 1bhk properties?
 10,,,2 bhk,Would you be interested in a 2BHK?,Do you have 2bhk options?
 11,,,3 bhk,Would a 3BHK be suitable to you?,Are you having 3bhk properties?
