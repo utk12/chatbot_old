@@ -29,27 +29,27 @@
     "bot_question": "",
     "user_question": "",
     "children": {
-      "1BHK": {
+      "1Bhk": {
         "bot_question": "",
         "user_question": ""
       },
-      "2BHK": {
+      "2Bhk": {
         "bot_question": "",
         "user_question": ""
       },
-      "3BHK": {
+      "3Bhk": {
         "bot_question": "",
         "user_question": ""
       },
-      "4BHK": {
+      "4Bhk": {
         "bot_question": "",
         "user_question": ""
       },
-      "5BHK": {
+      "5Bhk": {
         "bot_question": "",
         "user_question": ""
       },
-      "6+BHK": {
+      "6+Bhk": {
         "bot_question": "",
         "user_question": ""
       }

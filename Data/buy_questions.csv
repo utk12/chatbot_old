@@ -18,13 +18,13 @@ sn,key_1,key_2,key_3,bot_question,user_question
 17,,,Under Construction,Are you interested in under constructed options?,Can you show me some Under Construction properties?
 18,,,Ready to Move,Would you like me to show you ready-to-move-in alternatives?,Do you have any Ready to move options?
 19,,Price,,How much are you willing to invest in the project?,What's the price of this property?
-20,,,High,,Can you show some properties in high budget range?
-21,,,Medium,,Are their any options in Medium Budget range?
-22,,,Low,,Can you show some properties in Low Budget range?
+20,,,High,ajnd,Can you show some properties in high budget range?
+21,,,Medium,eefe,Are their any options in Medium Budget range?
+22,,,Low,efe,Can you show some properties in Low Budget range?
 23,,Size,,Do you have a preferred range of size in mind?,What size options are you having?
-24,,,High,,
-25,,,Medium,,
-26,,,Low,,
+24,,,High,efe,efe
+25,,,Medium,fef,efe
+26,,,Low,efe,fef
 27,,Amenities,,Are you also looking for specific amenities available?,What amenities are available?
 28,,,Cricket,Are you intrested in playing cricket?,Is Cricket available?
 29,,,Football,Do you like to play Football?,Are you having any properties offering football?
@@ -102,5 +102,5 @@ sn,key_1,key_2,key_3,bot_question,user_question
 101,,,Vastu Compliant,Is Vastu Compliance a necessity for you?,Can you filter out the projects which are Vastu Compliant?
 102,,Rating,,Can I help you filter properties on the basis of user rating?,What is the rating?
 103,,,High,Do you wish to see options rated best by previous users?,Can you filter out the projects which are Highly Rated?
-104,,,Medium,,Is their any medium rated property?
-105,,,Low,,Can you exclude the low rated properties?
+104,,,Medium,ejfhje,Is their any medium rated property?
+105,,,Low,fegh,Can you exclude the low rated properties?
