@@ -1,0 +1,446 @@
+{
+  "projectType": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "apartment": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "villa": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "rowHouse": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "studio": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "servicedApartment": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "accommodation": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "1BHK": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "2BHK": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "3BHK": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "4BHK": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "5BHK": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "6+BHK": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "possession": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "newlyLaunched": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "underConstruction": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "newlyConstructed": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "nearToCompletion": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "existing": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "price": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "high": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "medium": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "low": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "size": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "high": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "medium": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "low": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "amenities": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "football": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "cricket": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "badminton": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "tennis": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "basketball": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "pitchAndPutt": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "skatingRink": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "volleyball": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "amphitheatre": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "tableTennis": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "squash": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "swimmingPool": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "poolTable": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "snookerTable": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "bowlingAlley": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "joggingTrack": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "restaurant": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "yogaRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "aerobicsRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "danceRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "musicRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "salon": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "spa": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "gym": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "videoGames": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "miniTheatre": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "kidsZone": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "bar": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "cafe": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "businessCentre": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "guestRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "steamRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "saunaRoom": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "jacuzzi": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "security": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "cctvTower": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "guardsTower": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "cctvMaingate": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "guardsMaingate": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "intercomMaingate": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "boomBarriersMaingate": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "tagsForVehicles": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "stickersForVehicles": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "nearby": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "school": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "hospital": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "clubs": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "restaurant": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "mall": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "preSchool": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "daycare": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "market": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "pharmacy": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "bank": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "atm": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "park": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "metroStation": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "sportsComplex": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "specifications": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "homeAutomation": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "fullyFurnished": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "airConditioning": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "vrvAirConditioning": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "modularKitchen": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "kitchenDishWasher": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "wardrobes": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "showerCubicle": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "bathTub": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "lift": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "parking": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "visitorParking": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "powerBackup": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "maintenance": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "vastuCompliant": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  },
+  "rating": {
+    "bot_question": "",
+    "user_question": "",
+    "children": {
+      "high": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "medium": {
+        "bot_question": "",
+        "user_question": ""
+      },
+      "low": {
+        "bot_question": "",
+        "user_question": ""
+      }
+    }
+  }
+}
