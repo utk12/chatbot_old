@@ -1,4 +1,5 @@
 import requests,json
+from get_project_names import get_project_names
 #get_message
 #Use different session ids for different users
 
@@ -53,6 +54,7 @@ def create_new_entity_wit(entity,values):
 		data['values'].append(dict1)
 	data = json.dumps(data)
 	r=requests.post(url=url,headers = headers,data = data)
+	print r.text
 
 def delete_entity(entity):
 	headers = {'Authorization':'Bearer QZBAVFA3VWR3UBH4PDUCGWELMGIE2T4O'}
@@ -90,4 +92,7 @@ if __name__ == '__main__':
 	# create_new_entity_wit(entity,values)
 	# delete_entity('trial')
 	# value = '3'
-	# add_new_values_entity(entity,value)
+	# add_new_value_entity(entity,value)
+	# entity = 'project_name'
+	# values = get_project_names()
+	# create_new_entity_wit(entity,values)

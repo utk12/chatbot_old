@@ -15,8 +15,6 @@ def getFeatures(witReply, intent):
 				features.append(f)
 	return features
 
-
-
 def format_wit_reply(witReply):
 	reply = {}
 	for i in witReply:
@@ -25,7 +23,6 @@ def format_wit_reply(witReply):
 		for j in witReply[i]:
 			reply[x]['_'.join(j.split())] = witReply[i][j]
 	return reply
-
 
 def getRelativeFeatures(witReply):
 	features = []
@@ -40,8 +37,6 @@ def getRelativeFeatures(witReply):
 				elif level in levels[4:]:
 					features.append('area_medium')
 	return list(set(features))
-	
-
 
 def getSecurityFeatures(witReply):
 	if 'security' not in witReply:
@@ -61,8 +56,6 @@ def getSecurityFeatures(witReply):
 
 	return list(set(features))
 
-
-
 def dothis(entity, feature, intent):
 	feature_dict = get_feature_dictionary()[intent]
 	# print feature_dict
@@ -74,8 +67,6 @@ def dothis(entity, feature, intent):
 	if entity in x:
 		if feature in feature_dict[entity]:
 			return feature
-
-
 
 # print get_entities_list_wit()
 # getFeatures({u'security': {u'cctv': True}, u'security_place': {u'tower': True}, u'project_type': {u'row house': True}, u'sentiment': {u'positive': True}}, 'buy')
