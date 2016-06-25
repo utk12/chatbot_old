@@ -13,7 +13,7 @@ def getFeatures(witReply, intent):
 			f = dothis(entity,feature,intent)
 			if f is not None:
 				features.append(f)
-	print features
+	return features
 
 
 
@@ -74,6 +74,8 @@ def dothis(entity, feature, intent):
 	if entity in x:
 		if feature in feature_dict[entity]:
 			return feature
+
+
 
 # print get_entities_list_wit()
 # getFeatures({u'security': {u'cctv': True}, u'security_place': {u'tower': True}, u'project_type': {u'row house': True}, u'sentiment': {u'positive': True}}, 'buy')
