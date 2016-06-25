@@ -1,174 +1,172 @@
 {
-  "buy": {
-    "projectType": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.1,
-      "children": {
-        "apartment": 0,
-        "villa": 0,
-        "rowHouse": 0,
-        "studio": 0,
-        "servicedApartment": 0
-      }
-    },
-    "accommodation": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.1,
-      "children": {
-        "1BHK": 0,
-        "2BHK": 0,
-        "3BHK": 0,
-        "4BHK": 0,
-        "5BHK": 0,
-        "6+BHK": 0
-      }
-    },
-    "possession": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.1,
-      "children": {
-        "newlyLaunched": 0,
-        "underConstruction": 0,
-        "newlyConstructed": 0,
-        "nearToCompletion": 0,
-        "existing": 0
-      }
-    },
-    "price": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.3,
-      "children": {
-        "price_high": 0,
-        "price_medium": 0,
-        "price_low": 0
-      }
-    },
-    "size": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.5,
-      "children": {
-        "size_high": 0,
-        "size_medium": 0,
-        "size_low": 0
-      }
-    },
-    "amenities": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.8,
-      "children": {
-        "football": 0,
-        "cricket": 0,
-        "badminton": 0,
-        "tennis": 0,
-        "basketball": 0,
-        "pitchAndPutt": 0,
-        "skatingRink": 0,
-        "volleyball": 0,
-        "amphitheatre": 0,
-        "tableTennis": 0,
-        "squash": 0,
-        "swimmingPool": 0,
-        "poolTable": 0,
-        "snookerTable": 0,
-        "bowlingAlley": 0,
-        "joggingTrack": 0,
-        "restaurant": 0,
-        "yogaRoom": 0,
-        "aerobicsRoom": 0,
-        "danceRoom": 0,
-        "musicRoom": 0,
-        "salon": 0,
-        "spa": 0,
-        "gym": 0,
-        "videoGames": 0,
-        "miniTheatre": 0,
-        "kidsZone": 0,
-        "bar": 0,
-        "cafe": 0,
-        "businessCentre": 0,
-        "guestRoom": 0,
-        "steamRoom": 0,
-        "saunaRoom": 0,
-        "jacuzzi": 0
-      }
-    },
-    "security": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.8,
-      "children": {
-        "cctvTower": 0,
-        "guardsTower": 0,
-        "cctvMaingate": 0,
-        "guardsMaingate": 0,
-        "intercomMaingate": 0,
-        "boomBarriersMaingate": 0,
-        "tagsForVehicles": 0,
-        "stickersForVehicles": 0
-      }
-    },
-    "nearby": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.8,
-      "children": {
-        "school": 0,
-        "hospital": 0,
-        "clubs": 0,
-        "restaurant": 0,
-        "mall": 0,
-        "preSchool": 0,
-        "daycare": 0,
-        "market": 0,
-        "pharmacy": 0,
-        "bank": 0,
-        "atm": 0,
-        "park": 0,
-        "metroStation": 0,
-        "sportsComplex": 0
-      }
-    },
-    "specifications": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.8,
-      "children": {
-        "homeAutomation": 0,
-        "fullyFurnished": 0,
-        "airConditioning": 0,
-        "vrvAirConditioning": 0,
-        "modularKitchen": 0,
-        "kitchenDishWasher": 0,
-        "wardrobes": 0,
-        "showerCubicle": 0,
-        "bathTub": 0,
-        "lift": 0,
-        "parking": 0,
-        "visitorParking": 0,
-        "powerBackup": 0,
-        "maintenance": 0,
-        "vastuCompliant": 0,
-        "wheelChairFriendly": 0,
-        "servantRoom": 0,
-        "petFriendly": 0,
-        "storeRoom": 0
-      }
-    },
-    "rating": {
-      "foundValue": 0,
-      "preferCount": 0,
-      "factorValue": 0.9,
-      "children": {
-        "rating_high": 0,
-        "rating_medium": 0,
-        "rating_low": 0
-      }
+  "projectType": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.1,
+    "children": {
+      "apartment": 0,
+      "villa": 0,
+      "rowHouse": 0,
+      "studio": 0,
+      "servicedApartment": 0
+    }
+  },
+  "accommodation": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.1,
+    "children": {
+      "1BHK": 0,
+      "2BHK": 0,
+      "3BHK": 0,
+      "4BHK": 0,
+      "5BHK": 0,
+      "6+BHK": 0
+    }
+  },
+  "possession": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.1,
+    "children": {
+      "newlyLaunched": 0,
+      "underConstruction": 0,
+      "newlyConstructed": 0,
+      "nearToCompletion": 0,
+      "existing": 0
+    }
+  },
+  "price": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.3,
+    "children": {
+      "price_high": 0,
+      "price_medium": 0,
+      "price_low": 0
+    }
+  },
+  "size": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.5,
+    "children": {
+      "size_high": 0,
+      "size_medium": 0,
+      "size_low": 0
+    }
+  },
+  "amenities": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.8,
+    "children": {
+      "football": 0,
+      "cricket": 0,
+      "badminton": 0,
+      "tennis": 0,
+      "basketball": 0,
+      "pitchAndPutt": 0,
+      "skatingRink": 0,
+      "volleyball": 0,
+      "amphitheatre": 0,
+      "tableTennis": 0,
+      "squash": 0,
+      "swimmingPool": 0,
+      "poolTable": 0,
+      "snookerTable": 0,
+      "bowlingAlley": 0,
+      "joggingTrack": 0,
+      "restaurant": 0,
+      "yogaRoom": 0,
+      "aerobicsRoom": 0,
+      "danceRoom": 0,
+      "musicRoom": 0,
+      "salon": 0,
+      "spa": 0,
+      "gym": 0,
+      "videoGames": 0,
+      "miniTheatre": 0,
+      "kidsZone": 0,
+      "bar": 0,
+      "cafe": 0,
+      "businessCentre": 0,
+      "guestRoom": 0,
+      "steamRoom": 0,
+      "saunaRoom": 0,
+      "jacuzzi": 0
+    }
+  },
+  "security": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.8,
+    "children": {
+      "cctvTower": 0,
+      "guardsTower": 0,
+      "cctvMaingate": 0,
+      "guardsMaingate": 0,
+      "intercomMaingate": 0,
+      "boomBarriersMaingate": 0,
+      "tagsForVehicles": 0,
+      "stickersForVehicles": 0
+    }
+  },
+  "nearby": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.8,
+    "children": {
+      "school": 0,
+      "hospital": 0,
+      "clubs": 0,
+      "restaurant": 0,
+      "mall": 0,
+      "preSchool": 0,
+      "daycare": 0,
+      "market": 0,
+      "pharmacy": 0,
+      "bank": 0,
+      "atm": 0,
+      "park": 0,
+      "metroStation": 0,
+      "sportsComplex": 0
+    }
+  },
+  "specifications": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.8,
+    "children": {
+      "homeAutomation": 0,
+      "fullyFurnished": 0,
+      "airConditioning": 0,
+      "vrvAirConditioning": 0,
+      "modularKitchen": 0,
+      "kitchenDishWasher": 0,
+      "wardrobes": 0,
+      "showerCubicle": 0,
+      "bathTub": 0,
+      "lift": 0,
+      "parking": 0,
+      "visitorParking": 0,
+      "powerBackup": 0,
+      "maintenance": 0,
+      "vastuCompliant": 0,
+      "wheelChairFriendly": 0,
+      "servantRoom": 0,
+      "petFriendly": 0,
+      "storeRoom": 0
+    }
+  },
+  "rating": {
+    "foundValue": 0,
+    "preferCount": 0,
+    "factorValue": 0.9,
+    "children": {
+      "rating_high": 0,
+      "rating_medium": 0,
+      "rating_low": 0
     }
   }
 }
