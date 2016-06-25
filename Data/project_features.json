@@ -1,439 +1,436 @@
 {
-  "buy": {
-    "projectType": {
-      "ratioScore" : 0,
-      "children" : {
-        "apartment": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "villa": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "rowHouse": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "studio": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "servicedApartment": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
-      }
-    },
-    "accommodation": {
-      "ratioScore" : 0,
-      "children" : {
-        "1BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "2BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "3BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "4BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "5BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "6+BHK": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
-      }
-    },
-    "possession": {
-      "ratioScore" : 0,
-      "children" : {
-        "newlyLaunched": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "underConstruction": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "newlyConstructed": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "nearToCompletion": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "existing": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
-      }
-    },
-    "price": {
-      "ratioScore" : 0,
-        "children" : {
-        "high": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "medium": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "low": {
-          "factorValue": 3,
-          "foundValue" : 0
-        }
-      }
-    },
-    "size": {
-      "ratioScore" : 0,
-        "children" : {
-        "high": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "medium": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "low": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
-      }
-    },
-    "amenities": {
-      "ratioScore" : 0,
-        "children" : {
-        "football": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "cricket": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "badminton": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "tennis": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "basketball": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "pitchAndPutt": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "skatingRink": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "volleyball": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "amphitheatre": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "tableTennis": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "squash": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "swimmingPool": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "poolTable": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "snookerTable": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "bowlingAlley": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "joggingTrack": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "restaurant": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "yogaRoom": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "aerobicsRoom": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "danceRoom": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "musicRoom": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "salon": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "spa": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "gym": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "videoGames": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "miniTheatre": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "kidsZone": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "bar": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "cafe": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "businessCentre": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "guestRoom": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "steamRoom": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "saunaRoom": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "jacuzzi": {
-          "factorValue": 3,
-          "foundValue" : 0
-        }
-      }
-    },
-    "security": {
-      "ratioScore" : 0,
-      "children" : {
-        "cctvTower": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "guardsTower": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "cctvMaingate": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "guardsMaingate": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "intercomMaingate": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "boomBarriersMaingate": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "tagsForVehicles": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "stickersForVehicles": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
-      }
-    },
-    "nearby": {
-      "ratioScore" : 0,
-      "children" : {
-      "school": {
+  "projectType": {
+    "ratioScore": 0,
+    "children": {
+      "apartment": {
         "factorValue": 1,
-        "foundValue" : 0
+        "foundValue": 0
       },
-      "hospital": {
+      "villa": {
         "factorValue": 1,
-        "foundValue" : 0
+        "foundValue": 0
       },
-      "clubs": {
+      "rowHouse": {
         "factorValue": 1,
-        "foundValue" : 0
+        "foundValue": 0
       },
-      "restaurant": {
+      "studio": {
         "factorValue": 1,
-        "foundValue" : 0
+        "foundValue": 0
       },
-      "mall": {
+      "servicedApartment": {
         "factorValue": 1,
-        "foundValue" : 0
-      },
-      "preSchool": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "daycare": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "market": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "pharmacy": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "bank": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "atm": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "park": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "metroStation": {
-        "factorValue": 1,
-        "foundValue" : 0
-      },
-      "sportsComplex": {
-        "factorValue": 1,
-        "foundValue" : 0
+        "foundValue": 0
       }
     }
   },
-    "specifications": {
-      "ratioScore" : 0,
-      "children" : {
-        "homeAutomation": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "fullyFurnished": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "airConditioning": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "vrvAirConditioning":{
-          "factorValue":3,
-          "foundValue" : 0
-        },
-        "modularKitchen": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "kitchenDishWasher":{
-          "factorValue":2,
-          "foundValue" : 0
-        },
-        "wardrobes": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "showerCubicle": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "bathTub": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "lift": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "parking": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "visitorParking": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "powerBackup": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "maintenance": {
-          "factorValue": 1,
-          "foundValue" : 0
-        },
-        "vastuCompliant": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
+  "accommodation": {
+    "ratioScore": 0,
+    "children": {
+      "1BHK": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "2BHK": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "3BHK": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "4BHK": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "5BHK": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "6+BHK": {
+        "factorValue": 1,
+        "foundValue": 0
       }
-    },
-    "rating": {
-      "ratioScore" : 0,
-      "children" : {
-        "high": {
-          "factorValue": 3,
-          "foundValue" : 0
-        },
-        "medium": {
-          "factorValue": 2,
-          "foundValue" : 0
-        },
-        "low": {
-          "factorValue": 1,
-          "foundValue" : 0
-        }
+    }
+  },
+  "possession": {
+    "ratioScore": 0,
+    "children": {
+      "newlyLaunched": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "underConstruction": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "newlyConstructed": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "nearToCompletion": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "existing": {
+        "factorValue": 1,
+        "foundValue": 0
+      }
+    }
+  },
+  "price": {
+    "ratioScore": 0,
+    "children": {
+      "high": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "medium": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "low": {
+        "factorValue": 3,
+        "foundValue": 0
+      }
+    }
+  },
+  "size": {
+    "ratioScore": 0,
+    "children": {
+      "high": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "medium": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "low": {
+        "factorValue": 1,
+        "foundValue": 0
+      }
+    }
+  },
+  "amenities": {
+    "ratioScore": 0,
+    "children": {
+      "football": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "cricket": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "badminton": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "tennis": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "basketball": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "pitchAndPutt": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "skatingRink": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "volleyball": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "amphitheatre": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "tableTennis": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "squash": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "swimmingPool": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "poolTable": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "snookerTable": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "bowlingAlley": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "joggingTrack": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "restaurant": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "yogaRoom": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "aerobicsRoom": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "danceRoom": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "musicRoom": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "salon": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "spa": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "gym": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "videoGames": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "miniTheatre": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "kidsZone": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "bar": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "cafe": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "businessCentre": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "guestRoom": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "steamRoom": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "saunaRoom": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "jacuzzi": {
+        "factorValue": 3,
+        "foundValue": 0
+      }
+    }
+  },
+  "security": {
+    "ratioScore": 0,
+    "children": {
+      "cctvTower": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "guardsTower": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "cctvMaingate": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "guardsMaingate": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "intercomMaingate": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "boomBarriersMaingate": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "tagsForVehicles": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "stickersForVehicles": {
+        "factorValue": 1,
+        "foundValue": 0
+      }
+    }
+  },
+  "nearby": {
+    "ratioScore": 0,
+    "children": {
+      "school": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "hospital": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "clubs": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "restaurant": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "mall": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "preSchool": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "daycare": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "market": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "pharmacy": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "bank": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "atm": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "park": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "metroStation": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "sportsComplex": {
+        "factorValue": 1,
+        "foundValue": 0
+      }
+    }
+  },
+  "specifications": {
+    "ratioScore": 0,
+    "children": {
+      "homeAutomation": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "fullyFurnished": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "airConditioning": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "vrvAirConditioning": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "modularKitchen": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "kitchenDishWasher": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "wardrobes": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "showerCubicle": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "bathTub": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "lift": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "parking": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "visitorParking": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "powerBackup": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "maintenance": {
+        "factorValue": 1,
+        "foundValue": 0
+      },
+      "vastuCompliant": {
+        "factorValue": 1,
+        "foundValue": 0
+      }
+    }
+  },
+  "rating": {
+    "ratioScore": 0,
+    "children": {
+      "high": {
+        "factorValue": 3,
+        "foundValue": 0
+      },
+      "medium": {
+        "factorValue": 2,
+        "foundValue": 0
+      },
+      "low": {
+        "factorValue": 1,
+        "foundValue": 0
       }
     }
   }
 }
-
