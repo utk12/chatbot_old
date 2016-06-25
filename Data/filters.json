@@ -4,7 +4,8 @@
     "builder": "",
     "address": {
       "location": "",
-      "zone": ""
+      "zone": "",
+      "city": ""
     },
     "projectType": {
       "apartment": "",
@@ -13,7 +14,6 @@
       "studioApartment": "",
       "servicedApartment": ""
     },
-    "greenArea": "",
     "carParking": "",
     "vastuCompliant": ""
   },
@@ -36,11 +36,10 @@
     "joggingTrack": ""
   },
   "clubHouse": {
-    "operatingTimes": "",
     "multiPurposeHall": "",
     "restaurant": "",
     "yogaRoom": "",
-    "aerobicsRooms": "",
+    "aerobicsRoom": "",
     "danceRoom": "",
     "musicRoom": "",
     "salon": "",
@@ -52,7 +51,7 @@
     "bar": "",
     "cafe": "",
     "businessCentre": "",
-    "guestrooms": "",
+    "guestRoom": "",
     "steamRoom": "",
     "saunaRoom": "",
     "jacuzzi": ""
@@ -80,8 +79,7 @@
     "propertyType": "",
     "type": "",
     "price": "",
-    "superArea": "",
-    "carpetArea": "",
+    "area": "",
     "storeRoom ": "",
     "servantRoom ": ""
   },
@@ -90,7 +88,7 @@
     "homeAutomation ": "",
     "vrvAirConditioning": "",
     "kitchenAppliances": "",
-    "kitchenOTG": "",
+    "kitchenOtg": "",
     "bathTub": "",
     "kitchenModular": "",
     "kitchenDishWasher": "",
@@ -99,7 +97,6 @@
     "kitchenChimney": "",
     "flooringLivingDining": "",
     "kitchenMicrowaveOven": "",
-    "jacuzzi": "",
     "kitchenRefrigerator": "",
     "flooringOtherBedrooms": "",
     "kitchenHob": "",
