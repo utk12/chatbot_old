@@ -1,116 +1,109 @@
 {
-	"projectDetails": {
-		"projectName": "",
-		"builder": "",
-		"address": {
-			"location": "",
-			"zone": ""
-		},
-		"projectType": {
-			"apartment": "",
-			"villa": "",
-			"rowHouse": "",
-			"studioApartment": "",
-			"servicedApartment": ""
-		},
-		"greenArea": "",
-		"carParking": "",
-		"vastuCompliant": ""
-	},
-	"sportsActivities": {
-		"cricket": "",
-		"football": "",
-		"tennis": "",
-		"basketball": "",
-		"multiPurposeCourt": "",
-		"pitchAndPutt": "",
-		"skatingRink": "",
-		"volleyball": "",
-		"amphitheatre": "",
-		"badminton": "",
-		"tableTennis": "",
-		"squash": "",
-		"swimmingPool": "",
-		"kidsSwimmingPool": "",
-		"kidsPlayAreas": "",
-		"poolTable": "",
-		"snookerTable": "",
-		"bowlingAlley": "",
-		"joggingTrack": ""
-	},
-	"clubHouse": {
-		"operatingTimes": "",
-		"multiPurposeHall": "",
-		"restaurant": "",
-		"yogaRoom": "",
-		"aerobicsRooms": "",
-		"danceRoom": "",
-		"musicRoom": "",
-		"salon": "",
-		"spa": "",
-		"gym": "",
-		"videoGames": "",
-		"miniTheatre": "",
-		"kidsZone": "",
-		"bar": "",
-		"cafe": "",
-		"businessCentre": "",
-		"guestrooms": "",
-		"steamRoom": "",
-		"saunaRoom": "",
-		"jacuzzi": ""
-	},
-	"other": {
-		"powerBackup": "",
-		"maintenance": "",
-		"petFriendly": "",
-		"wheelchairFriendly": ""
-	},
-	"security": {
-		"mainGate": {
-			"guards": "",
-			"boomBarriers": "",
-			"intercom": "",
-			"cctv": ""
-		},
-		"tower": {
-			"accessControlled": "",
-			"guard": "",
-			"cctv": ""
-		}
-	},
-	"units": {
-		"id1": {
-			"configurations": {
-				"propertyType": "",
-				"type": "",
-				"price": "",
-				"superArea": "",
-				"carpetArea": "",
-				"storeRoom ": "",
-				"servantRoom ": ""
-			},
-			"specifications": {
-				"showerCubicle": "",
-				"homeAutomation ": "",
-				"vrvAirConditioning": "",
-				"kitchenAppliances": "",
-				"kitchenOTG": "",
-				"bathTub": "",
-				"kitchenModular": "",
-				"kitchenDishWasher": "",
-				"airConditioning": "",
-				"flooringMasterBedrooms": "",
-				"kitchenChimney": "",
-				"flooringLivingDining": "",
-				"kitchenMicrowaveOven": "",
-				"jacuzzi": "",
-				"kitchenRefrigerator": "",
-				"flooringOtherBedrooms": "",
-				"kitchenHob": "",
-				"fullyFurnished": "",
-				"wardrobes": ""
-			}
-		}
-	}
+  "projectDetails": {
+    "projectName": "",
+    "builder": "",
+    "address": {
+      "location": "",
+      "zone": ""
+    },
+    "projectType": {
+      "apartment": "",
+      "villa": "",
+      "rowHouse": "",
+      "studioApartment": "",
+      "servicedApartment": ""
+    },
+    "greenArea": "",
+    "carParking": "",
+    "vastuCompliant": ""
+  },
+  "sportsActivities": {
+    "cricket": "",
+    "football": "",
+    "tennis": "",
+    "basketball": "",
+    "pitchAndPutt": "",
+    "skatingRink": "",
+    "volleyball": "",
+    "amphitheatre": "",
+    "badminton": "",
+    "tableTennis": "",
+    "squash": "",
+    "swimmingPool": "",
+    "poolTable": "",
+    "snookerTable": "",
+    "bowlingAlley": "",
+    "joggingTrack": ""
+  },
+  "clubHouse": {
+    "operatingTimes": "",
+    "multiPurposeHall": "",
+    "restaurant": "",
+    "yogaRoom": "",
+    "aerobicsRooms": "",
+    "danceRoom": "",
+    "musicRoom": "",
+    "salon": "",
+    "spa": "",
+    "gym": "",
+    "videoGames": "",
+    "miniTheatre": "",
+    "kidsZone": "",
+    "bar": "",
+    "cafe": "",
+    "businessCentre": "",
+    "guestrooms": "",
+    "steamRoom": "",
+    "saunaRoom": "",
+    "jacuzzi": ""
+  },
+  "other": {
+    "powerBackup": "",
+    "maintenance": "",
+    "petFriendly": "",
+    "wheelchairFriendly": ""
+  },
+  "security": {
+    "mainGate": {
+      "guards": "",
+      "boomBarriers": "",
+      "intercom": "",
+      "cctv": ""
+    },
+    "tower": {
+      "accessControlled": "",
+      "guards": "",
+      "cctv": ""
+    }
+  },
+  "configurations": {
+    "propertyType": "",
+    "type": "",
+    "price": "",
+    "superArea": "",
+    "carpetArea": "",
+    "storeRoom ": "",
+    "servantRoom ": ""
+  },
+  "specifications": {
+    "showerCubicle": "",
+    "homeAutomation ": "",
+    "vrvAirConditioning": "",
+    "kitchenAppliances": "",
+    "kitchenOTG": "",
+    "bathTub": "",
+    "kitchenModular": "",
+    "kitchenDishWasher": "",
+    "airConditioning": "",
+    "flooringMasterBedrooms": "",
+    "kitchenChimney": "",
+    "flooringLivingDining": "",
+    "kitchenMicrowaveOven": "",
+    "jacuzzi": "",
+    "kitchenRefrigerator": "",
+    "flooringOtherBedrooms": "",
+    "kitchenHob": "",
+    "fullyFurnished": "",
+    "wardrobes": ""
+  }
 }
