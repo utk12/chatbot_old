@@ -4,7 +4,8 @@
     "builder": "",
     "address": {
       "location": "",
-      "zone": ""
+      "zone": "",
+      "city": ""
     },
     "projectType": {
       "apartment": "",
@@ -13,7 +14,6 @@
       "studioApartment": "",
       "servicedApartment": ""
     },
-    "greenArea": "",
     "carParking": "",
     "vastuCompliant": ""
   },
@@ -79,8 +79,7 @@
     "propertyType": "",
     "type": "",
     "price": "",
-    "superArea": "",
-    "carpetArea": "",
+    "area": "",
     "storeRoom ": "",
     "servantRoom ": ""
   },
