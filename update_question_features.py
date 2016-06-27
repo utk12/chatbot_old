@@ -2,7 +2,7 @@ import json
 import numpy as np
 import pandas as pd
 pd.set_option('expand_frame_repr', False)
-data = pd.read_csv('Data/buy_questions.csv')
+data = pd.read_csv('Data/buy_questions_edited.csv')
 data.index = data['sn']
 
 def lower_columns(name):
@@ -79,18 +79,32 @@ def update_question_features_value_level(feature):
 								elif k2 == 'user_question':
 									feature[k]['children'][k1][k2] = data_subset[k2][data_subset.index[data_subset['key_3'] == children]].item()
 
+def write_output(operation):
+	# operation is buy/rent
+	with open('Data/question_features_'+str(operation)+'.json') as json_data:
+		feature = json.loads(json_data.read())
+	update_question_features_key_level(feature)
+	update_question_features_value_level(feature)
+	# print json.dumps(feature,indent = 4)
+	with open('Data/question_features_'+str(operation)+'_output.json','w') as outfile:
+		json.dump(feature,outfile)
+
+def get_output(operation):
+	# operation is buy/rent
+	with open('Data/question_features_'+str(operation)+'.json') as json_data:
+		feature = json.loads(json_data.read())
+	update_question_features_key_level(feature)
+	update_question_features_value_level(feature)
+	return json.dumps(feature,indent = 4)
+
 if __name__ == '__main__':
 	#below 3 lines hsould not be commented out.
 	column_names = ['bot_question','user_question','key_1','key_2','key_3']
 	for name in column_names:
 		lower_columns(name)
-	with open('Data/question_features_buy.json') as json_data:
-		feature = json.loads(json_data.read())
-
 	# print get_list_distinct_fields(data,'key_3')
 	# update_question_features_key_level()
-	update_question_features_key_level(feature)
-	update_question_features_value_level(feature)
+
 	# print get_dict_parent_numchild()
 	# print iterate('amenities',34)
-	print json.dumps(feature,indent = 4)
+	print get_output('buy')
