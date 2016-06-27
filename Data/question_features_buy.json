@@ -15,7 +15,7 @@
         "bot_question": "",
         "user_question": ""
       },
-      "studio": {
+      "studioApartment": {
         "bot_question": "",
         "user_question": ""
       },
@@ -67,17 +67,9 @@
         "bot_question": "",
         "user_question": ""
       },
-      "newlyConstructed": {
-        "bot_question": "",
-        "user_question": ""
-      },
-      "nearToCompletion": {
-        "bot_question": "",
-        "user_question": ""
-      },
-      "existing": {
-        "bot_question": "",
-        "user_question": ""
+      "readyToMove":{
+        "bot_question":"",
+        "user_question":""
       }
     }
   },

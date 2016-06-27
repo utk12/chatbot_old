@@ -31,6 +31,14 @@ def get_dict_parent_numchild():
 		dict1[item] = data['key_3'][data.index[data['key_2'] == item]].item()
 	return dict1
 
+def get_children_values(k,num):
+	i1 = int(data.index[data['key_2'] == k])
+	i2 = int(data.index[data['key_2'] == k]) + int(num)
+	list1 = []
+	for item in data['key_3'][i1:i2]:
+		list1.append(item)
+	return list1
+
 def update_question_features_key_level(feature):
 	for key in get_list_distinct_fields(data,'key_2'):
 		#converting into underscore format
@@ -47,27 +55,21 @@ def update_question_features_key_level(feature):
 						feature[k][k1] = data['user_question'][data.index[data['key_2'] == key]].item()
 			# json_data.seek(0)
 			# json_data.write(json.dumps(feature,indent = 4,sort_keys = True))
-	print json.dumps(feature,indent = 4)
-
-def get_children_values(k,num):
-	i1 = int(data.index[data['key_2'] == k]) + 1
-	i2 = int(data.index[data['key_2'] == k]) + int(num)
-	list1 = []
-	for item in data['key_3'][i1:i2]:
-		list1.append(item)
-	return list1
 
 def update_question_features_value_level(feature):
 	for key,num in get_dict_parent_numchild().iteritems():
 		key_new = convert_space_to_underscore(key)
 		for children in get_children_values(key,num):
+			# print children
 			index1 = int(data.index[data['key_2'] == key])
 			index2 = index1 + int(num)
 			data_subset = data.loc[index1:index2]
+			# print data_subset
+			# print '-------------------------------------------------'
 			children_new = convert_space_to_underscore(children)	
 			for k in feature:
 				k_new = convert_camelcase_to_underscore(k)
-				if(k_new == key_new):				
+				if((k_new == key_new) and feature[k].has_key('children')):
 					for k1 in feature[k]['children']:
 						k1_new = convert_camelcase_to_underscore(k1)
 						if(k1_new == children_new):						
@@ -76,7 +78,7 @@ def update_question_features_value_level(feature):
 									feature[k]['children'][k1][k2] = data_subset[k2][data_subset.index[data_subset['key_3'] == children]].item()
 								elif k2 == 'user_question':
 									feature[k]['children'][k1][k2] = data_subset[k2][data_subset.index[data_subset['key_3'] == children]].item()
-	
+
 if __name__ == '__main__':
 	#below 3 lines hsould not be commented out.
 	column_names = ['bot_question','user_question','key_1','key_2','key_3']
@@ -91,3 +93,4 @@ if __name__ == '__main__':
 	update_question_features_value_level(feature)
 	# print get_dict_parent_numchild()
 	# print iterate('amenities',34)
+	print json.dumps(feature,indent = 4)

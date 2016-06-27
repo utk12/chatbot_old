@@ -64,17 +64,9 @@
         "factorValue": 1,
         "foundValue": 0
       },
-      "newlyConstructed": {
+      "readyToMove":{
         "factorValue": 1,
-        "foundValue": 0
-      },
-      "nearToCompletion": {
-        "factorValue": 1,
-        "foundValue": 0
-      },
-      "existing": {
-        "factorValue": 1,
-        "foundValue": 0
+        "foundValue" : 0
       }
     }
   },

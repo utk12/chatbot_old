@@ -1,19 +1,19 @@
 sn,key_1,key_2,key_3,bot_question,user_question
 1,Rent,,,Are you looking for property available on rent?,Can you provide the properties available for rent?
-2,,Project Type,,"Okay, what project type is suitable for you?",What project types are you having?
+2,,Project Type,5,"Okay, what project type is suitable for you?",What project types are you having?
 3,,,Apartment,Would you like me to show you apartments?,Do you have apartments?
 4,,,Villa,Is Villa a good option for you?,Can you show me some Villa?
 5,,,Row-house,Are you looking for row houses?,Do you have any Row House?
 6,,,Studio,Would studio apartment be a prefered choice?,Are you having any Studio Apartments?
 7,,,Serviced Apartment,Would you like me to search for Serviced Apartments?,Can you show me some service apartments?
-8,,Accommodation,,How many bedrooms do you want in your choice of property?,
+8,,Accommodation,6,How many bedrooms do you want in your choice of property?,
 9,,,1BHK,Are you looking for a 1BHK?,Can you show me some 1bhk properties?
 10,,,2BHK,Would you be interested in a 2BHK?,Do you have 2bhk options?
 11,,,3BHK,Would a 3BHK be suitable to you?,Are you having 3bhk properties?
 12,,,4BHK,Are you interested in seeing 4BHK options?,Is their any 4bhk property?
 13,,,5BHK,Would a 5BHK be suitable to your requirement?,Can you suggest some 5bhk properties?
 14,,,6+BHK,Do you want to see options with more than 6 bedrooms?,Do you have any 6+ bhk options?
-15,,Possession,,How soon do you want to gain possession of the property?,What's the offered possesion time?
+15,,Possession,3,How soon do you want to gain possession of the property?,What's the offered possesion time?
 16,,,Newly Launched,Are you interested in under launched options?,Do you have any Newly launched properties?
 17,,,Under Construction,Would you like me to show you under construction alternatives?,Can you show me some Under Construction properties?
 18,,,Newly Constructed,Would you like to see newly constructed projects?,
