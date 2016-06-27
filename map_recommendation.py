@@ -26,6 +26,7 @@ def formPairs(Q_data):
     for f in features:
         data = Q_data[f]
         pairs_occurences[f] = countPairs(data)
+    #print pairs_occurences
     return pairs_occurences
 
 
@@ -36,23 +37,44 @@ def deleteAll(dictionary,f):
             del d[f]
     return dictionary
 
+def nextFeatureSuggestion(temp):
+    print 'Current question is asked from which feature?'
+    start = raw_input()
+    #print 'Question is being asked from this now'
+
+    try:
+        next_feature = max(temp[start],key=temp[start].get)
+        print 'Next best possible features to ask question from:'
+        print temp[start]
+        temp = deleteAll(temp,start)
+        print 'Next feature suggestion to ask question from:',next_feature
+    except:
+        print 'All features are done!'
 
 def orderQuestions(temp):
     print 'Enter the feature to start with'
     start = raw_input()
+    print "Question is being asked from %s now"%(start)
     try:
         for i in range(10):
             next_f = max(temp[start],key=temp[start].get)
             temp = deleteAll(temp,start)
-            print start
+            print next_f
             start = next_f
     except:
         print 'End of Loop'
 
 if __name__ == '__main__':
+    
+    path = 'M:\RoofPik\Chat Bot'
+    os.chdir(path)
 
-    Q_data = pd.read_csv('Data/Q_order_CSV2.csv',header=0,index_col=0)
-    A_data = pd.read_csv('Data/answers_CSV2.csv',header=0,index_col=0)
+    Q_data = pd.read_csv('Q_order_CSV2.csv',header=0,index_col=0)
+    A_data = pd.read_csv('answers_CSV2.csv',header=0,index_col=0)
+
     pair_occurences = formPairs(Q_data)
+
     temp = copy.deepcopy(pair_occurences)
-    orderQuestions(temp)
+
+    nextFeatureSuggestion(temp)
+    #orderQuestions(temp)
