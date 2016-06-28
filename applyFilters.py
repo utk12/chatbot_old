@@ -1,7 +1,7 @@
 # from getFilters import wit_extract_filters
 from elasticsearch import Elasticsearch
 import json
-from update_question_features import cnvert_underscore_to_camelcase as toCamel
+from update_question_features import convert_underscore_to_camelcase as toCamel
 
 def toCamel(text):
 	components = text.split('_')
@@ -12,12 +12,14 @@ es = Elasticsearch([{'host':'localhost','port':9200}])
 def getProjects(filters_dict):
 	body = prepareBody(filters_dict)
 	project_list = search(body)
-	
+	project_list = applyUnitsFilter(project_list)
 
 
 
 def search(body):
 	return es.search(index = 'chatbot', doc_type = 'projects', body = body)['hits']['hits']
+
+
 
 def prepareBody(filters_dict):
 	fliterMust = []
