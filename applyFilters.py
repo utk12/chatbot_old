@@ -9,6 +9,13 @@ def toCamel(text):
 
 es = Elasticsearch([{'host':'localhost','port':9200}])
 
+def getProjects(filters_dict):
+	body = prepareBody(filters_dict)
+	project_list = search(body)
+	
+
+
+
 def search(body):
 	return es.search(index = 'chatbot', doc_type = 'projects', body = body)['hits']['hits']
 
@@ -60,7 +67,7 @@ def prepareBody(filters_dict):
 			for j in filters_dict['project_details'][i]:
 				i = toCamel(i)
 				j = toCamel(j)
-				x.append({"term":{'projectDetails.'+i : j}})
+				x.append({"match_phrase":{'projectDetails.'+i : j}})
 			details['bool']['must'].append({'bool' : {'should':x}})
 
 		elif i == 'project_type':
@@ -79,19 +86,20 @@ def prepareBody(filters_dict):
 			x = []
 			for j in filters_dict['project_details'][i]:
 				if j == 'city':
-					x.append({"term":{"projectDetails."+toCamel(i)+"."+toCamel(j) : filters_dict['project_details'][i][j]}})
+					x.append({"match_phrase":{"projectDetails."+toCamel(i)+"."+toCamel(j) : filters_dict['project_details'][i][j]}})
 				elif j == 'zone':
 					y = {'bool':{'should' : []}}
 					for k in filters_dict['project_details'][i][j]:
-						y['bool']['should'].append({"term":{"projectDetails."+toCamel(i)+"."+toCamel(j) : k}})
+						y['bool']['should'].append({"match_phrase":{"projectDetails."+toCamel(i)+"."+toCamel(j) : k}})
 					x.append(y)
 				elif j == 'location':
 					y = {'bool':{'should' : []}}
 					for k in filters_dict['project_details'][i][j]:
-						name = filters_dict['project_details'][i][j][k]['name']
-						y['bool']['should'].append({"term":{"projectDetails."+toCamel(i)+"."+toCamel(j)+".*.name" : name}})
+						
+						y['bool']['should'].append({"query_string":{"fields" : ["projectDetails."+toCamel(i)+"."+toCamel(j)+".*.name"], "query" : "\""+k+"\""}})
 					x.append(y)
 			details['bool']['must'].append({'bool' : {'must':x}})
+
 
 	# specs = {"bool" : {"must" : [] }}
 	# for i in filters_dict['specifications']:
@@ -127,7 +135,7 @@ filters_dict = {
 	"club_house": {}, 
 	"specifications": {}, 
 	"sports_activities": {
-		"football": True
+		"cricket": True
 	}, 
 	"project_details": {
 		"address": {
@@ -137,9 +145,7 @@ filters_dict = {
 				"sector 48" : True
 			},
 			"location" : {
-				"123456" : {
-					"name" : "vipul trade center"
-				}
+				"vipul trade centre" : True
 			}
 		},
 		"project_name" : {
@@ -152,7 +158,7 @@ filters_dict = {
 	"security": {
 		"place_flag": True, 
 		"tower": {
-			"cctv": True
+			"guards": True
 		}
 	}, 
 	"other": {}, 
