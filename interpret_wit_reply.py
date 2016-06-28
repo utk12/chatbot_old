@@ -2,7 +2,7 @@ from user_features import get_feature_dictionary
 import json
 from wit_get_reply_api import get_entities_list_wit
 
-def getFeatures(witReply, intent):
+def getFeatures(witReply):
 	witReply = format_wit_reply(witReply)
 	features = []
 	features += (getRelativeFeatures(witReply))
@@ -10,7 +10,7 @@ def getFeatures(witReply, intent):
 	print witReply
 	for entity in witReply:
 		for feature in witReply[entity]:
-			f = dothis(entity,feature,intent)
+			f = extractFeatures(entity,feature)
 			if f is not None:
 				features.append(f)
 	return features
@@ -56,8 +56,8 @@ def getSecurityFeatures(witReply):
 
 	return list(set(features))
 
-def dothis(entity, feature, intent):
-	feature_dict = get_feature_dictionary()[intent]
+def extractFeatures(entity, feature):
+	feature_dict = get_feature_dictionary()
 	# print feature_dict
 	if entity == 'feature':
 		if entity in feature_dict:
