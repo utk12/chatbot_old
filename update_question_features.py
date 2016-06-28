@@ -2,7 +2,7 @@ import json
 import numpy as np
 import pandas as pd
 pd.set_option('expand_frame_repr', False)
-data = pd.read_csv('Data/buy_questions_edited.csv')
+data = pd.read_csv('Data/buy_questions.csv')
 data.index = data['sn']
 
 def lower_columns(name):
@@ -91,6 +91,7 @@ def write_output(operation):
 
 def get_output(operation):
 	# operation is buy/rent
+	operation = operation.lower()
 	with open('Data/question_features_'+str(operation)+'.json') as json_data:
 		feature = json.loads(json_data.read())
 	update_question_features_key_level(feature)

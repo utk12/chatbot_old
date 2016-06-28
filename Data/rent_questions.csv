@@ -1,108 +1,106 @@
 sn,key_1,key_2,key_3,bot_question,user_question
-1,Rent,,,Are you looking for property available on rent?,Can you provide the properties available for rent?
+1,Buy,,,Are you looking for property available on rent?,Can you provide the properties available for rent?
 2,,Project Type,5,"Okay, what project type is suitable for you?",What project types are you having?
 3,,,Apartment,Would you like me to show you apartments?,Do you have apartments?
 4,,,Villa,Is Villa a good option for you?,Can you show me some Villa?
-5,,,Row-house,Are you looking for row houses?,Do you have any Row House?
-6,,,Studio,Would studio apartment be a prefered choice?,Are you having any Studio Apartments?
+5,,,Row House,Are you looking for row houses?,Do you have any Row House?
+6,,,Studio Apartment,Would studio apartment be a preferred choice?,Are you having any Studio Apartments?
 7,,,Serviced Apartment,Would you like me to search for Serviced Apartments?,Can you show me some service apartments?
-8,,Accommodation,6,How many bedrooms do you want in your choice of property?,
-9,,,1BHK,Are you looking for a 1BHK?,Can you show me some 1bhk properties?
-10,,,2BHK,Would you be interested in a 2BHK?,Do you have 2bhk options?
-11,,,3BHK,Would a 3BHK be suitable to you?,Are you having 3bhk properties?
-12,,,4BHK,Are you interested in seeing 4BHK options?,Is their any 4bhk property?
-13,,,5BHK,Would a 5BHK be suitable to your requirement?,Can you suggest some 5bhk properties?
-14,,,6+BHK,Do you want to see options with more than 6 bedrooms?,Do you have any 6+ bhk options?
-15,,Possession,3,How soon do you want to gain possession of the property?,What's the offered possesion time?
+8,,Accommodation,6,How many bedrooms do you want in your choice of property?,Can you show my various accomodaion  types available?
+9,,,1 BHK,Are you looking for a 1BHK?,Can you show me some 1bhk properties?
+10,,,2 BHK,Would you be interested in a 2BHK?,Do you have 2bhk options?
+11,,,3 BHK,Would a 3BHK be suitable to you?,Are you having 3bhk properties?
+12,,,4 BHK,Are you interested in seeing 4BHK options?,Is there any 4bhk property?
+13,,,5 BHK,Would a 5BHK be suitable to your requirement?,Can you suggest some 5bhk properties?
+14,,,6+ BHK,Do you want to see options with more than 6 bedrooms?,Do you have any 6+ bhk options?
+15,,Possession,3,How soon do you want to gain possession of the property?,What's the offered possession time?
 16,,,Newly Launched,Are you interested in under launched options?,Do you have any Newly launched properties?
 17,,,Under Construction,Would you like me to show you under construction alternatives?,Can you show me some Under Construction properties?
-18,,,Newly Constructed,Would you like to see newly constructed projects?,
-19,,,Near To Completion,Do you want to see options near to completion?,
-20,,,Existing,Are you interested in seeing already existing properties available?,
-21,,Price,,How much are you willing to invest in the project?,What's the price of this property?
-22,,,High,,Can you show some properties in high budget range?
-23,,,Medium,,Are their any options in Medium Budget range?
-24,,,Low,,Can you show some properties in Low Budget range?
-25,,Size,,Do you have a preferred range of size in mind?,What size options are you having?
-26,,,High,,
-27,,,Medium,,
-28,,,Low,,
-29,,Amenities,,Are you also looking for specific amenities available?,What amenities are available?
-30,,,Cricket,Are you intrested in playing cricket?,Is Cricket available?
-31,,,Football,Do you like to play Football?,Are you having any properties offering football?
-32,,,Tennis,Should I show you the properties having Tennis?,Can you suggest some projects providing Tennis?
-33,,,Basketball,Do you play Basketball very often?,Is Basketball provided?
-34,,,Multipurpose Court,Is Multiprpose Court a neccesity for you?,Do you have options offering Multipurpose Court?
-35,,,Pitch and Putt,Should I filter the properties having Pitch and Putt?,Can you suggest some projects offering Pitch and Putt?
-36,,,Skating Rink,Do you want Skating Rink as a facility?,Are their any options having Skating Rink?
-37,,,Volleyball,Are you a volleyball enthusiast?,Do you any projects having Volleyball?
-38,,,Amphitheatre,Would you like me to show you the options having Amphitheatre?,Is amphiteatre available?
-39,,,Badminton,Are you intrested in playing Badminton?,Can you suggest properties offering Table Tennis?
-40,,,Squash,Is squash a neccesity for you?,Is their any options providing Squash?
-41,,,Swimming Pool,Should I provide you with the options having Swimming Pool?,Is Swimming Pool provided?
-42,,,Pool Table,Should I filter the properties providing pool tables?,Do you have any properties providiing Pool Table?
-43,,,Snooker Table,Do you want to see properties providing snooker tables?,Can you suggest projects providing Snooker Table?
-44,,,Bowling Alley,Would you prefer options providing bowling alleys?,Is Bowling Alley present?
-45,,,Jogging Track,Do you want a jogging track facility in your project?,Can you suggest projects offering jogging track?
-46,,,Restaurant,Would restaurants inisde the society be a preferance?,Do you have any properties having Restaurant inside?
-47,,,Yoga Room,Would you be requiring a yoga room?,Are their any projects having Yoga Room?
-48,,,Aerobics Room,Do you prefer options with aerobics room facility?,Is Aerobics Room provided?
-49,,,Dance Room,Is the availability of Dance Room a requirement?,Can you suggest some options having Dance Room?
-50,,,Music Room,Is Music Room availability a preferance?,Is music room present?
-51,,,Salon,Would Salons inside the society be a preferance?,Do you have any projects having Salon?
-52,,,Spa,Are Spa options a necessity for you?,Is Spa available?
-53,,,Gym,Would you be requiring a gym inside the society?,Can you suggest some projects having Gym?
-54,,,Video Games,Do you want the facility of video games inside the society?,Do you have options offering Video Games?
-55,,,Mini Theatre,Is Mini-theatre facility a preferance for you?,Is their any project offering Mini Theatre?
-56,,,Kids Zone,Would you prefer options providing a kid-zone inside the society?,Are their any projects having Kids Zone?
-57,,,Bar,Is the availability of Bars a preferance for you?,Do you have any projects having Bar?
-58,,,Cafe,Would Cafes inside the society be a requirement?,Can you show me properties having Cafes?
-59,,,Business Centre,Would a Business Center inside the society a preferance?,Can you provide options having Business Centre inside only?
-60,,,Guest Room,Would you be requiring Guest rooms inside the society?,Are their any projects offering Guest Room?
-61,,,Steam Room,Is the availability of Steam rooms a preferance?,Is their any steam room facility?
-62,,,Sauna Room,Would Sauna Rooms inside the society be a necessity?,Can you suggest some options having Sauna room?
-63,,,Jacuzzi,Do you prefer options which provide Jacuzzi facility?,Do you have any projects offering Jacuzzi?
-64,,Security,,Do you want to have a look at the security facilities provided by the society?,What are the Security Options Offered?
-65,,,Cctv Tower,Do you want to see options that have a cctv tower?,Is Cctv tower present in the project?
-66,,,Guards Room,Can I show you options facilitated with guard rooms?,Can you show me projects having Guard room?
-67,,,Cctv Main Gate,Would you like to see alternatives that provide cctv at the main gate?,Is Cctv available at main gate?
-68,,,Gaurds Main Gate,Would you like me to show you options that have guards at the main gate?,Are Gaurds available at main Gate?
-69,,,Intercom Main Gate,Do you want to filter options based on intercom services available at the main gate?,Is intercom available at main gate?
-70,,,Boombarriers Main Gate,May I show you options that provide boom barriers at the main gate?,Do you have any alternatives offering Boombarriers at main gate?
-71,,,Tags for Vehicle,Would you prefer societies that provide vehicle tags for residents?,Can you suggest some options providing Tags for vehicle?
-72,,,Stickers for Vehicle,Would you prefer societies that provide stickers for residents' vehicles?,Are Stickers provided for the vehicles?
-73,,Nearby,,Are there any particular facilities you want nearby?,What are the Nearby Facilities?
-74,,,School,Do you want to see properties with good schools nearby?,Is their any school available?
-75,,,Hospital,Do you prefer options with hospitals nearby?,Can you filter the properties which are close to Hospital?
-76,,,Clubs,Would the nearness to clubs be a preferance?,Is their any club nearby?
-77,,,Restaurant,Would you like to see options with good restaurants nearby?,Can you suggest some projects which are close to restaurant?
-78,,,Mall,Would the presence of malls nearby be a necessity?,Can you exclude the projects close to Mall?
-79,,,Pre School,Is the availability of pre-schools nearby a necessity?,Do you have any Projects having PreSchool nearby?
-80,,,Daycare,Do you want daycare centers nearby?,Is Daycare facility available nearby?
-81,,,Market,Would you require the availability of markets nearby?,Is their any Market?
-82,,,Pharmacy,Do you require pharmacies nearby?,Can you suggest some properties which are close to pharmacy?
-83,,,Bank,Would you be needing bank faciities near your selection?,Do you have any properties close to Bank?
-84,,,Atm,Do you prefer the availability of ATMs nearby?,Is their any ATM available nearby?
-85,,,Park,Would you prefer the availability of parks nearby?,Do you have any options which are close to park?
-86,,,MetroStation,Would the nearness to the metro station a preferance?,Is their any Metro station nearby?
-87,,,Sports Complex,Would you be requiring a sports complex nearby?,Can you suggest some projects which are close to Sports Complex?
-88,,Specifications,,Do you have any specific requirements with your choice of project?,What are the specifications?
-89,,,Home Automation,Would you prefer options providing home automation?,Is their any project providing Home Automation?
-90,,,Fully Furnished,Do you want me to show you fully furnished alternatives?,Do you have fully furnished projects?
-91,,,Air Conditioning,Would air-conditioning be a requirement for you?,Are their any options offering Air Conditioning facility?
-92,,,VRV Air Conditioning,Would you prefer options that provide VRV Air Conditioning?,Can you suggest some projects providing VRV Air Conditioning?
-93,,,Modular Kitchen,Is Modular Kitchen a necessity for you?,Is Modular Kitchen provided?
-94,,,Kitchen Dish Washer,Would you be requirin a kitchen dish washer?,Can you provide some options providing Kitchen Dish Washer?
-95,,,Wardrobes,Is the provision of wardrobes a preferance for you?,Do you have any properties providing Wardrobes?
-96,,,Shower Cubicle,Would you be requiring a shower cubicle?,Is their any property having Shower Cubicle?
-97,,,BathTub,Would you prefer options that provide a bath tub?,Can you provide the details of projects providing Bath tub?
-98,,,Lift,Do you want to look at societies that provide lift services?,Is lift being Provided?
-99,,,Parking,May I filter options that provide parking facilities?,Can you filter out the projects offering Parking?
-100,,,VisitorParking,Do you want to see options that provide visitor car parking?,Do you have any projects providing Visitor Parking?
-101,,,Power Backup,Is power back-up a necessity for you?,Is Power Backup provided?
-102,,,Maintenance,Do you want to shortlist options based on maintenance facilities provided?,Are their any options providing Maintenance facility?
-103,,,Vastu Compliant,Is Vastu Compliance a necessity for you?,Can you filter out the projects which are Vastu Compliant?
-104,,Rating,,Can I help you filter properties on the basis of user rating?,What is the rating?
-105,,,High,Do you wish to see options rated best by previous users?,Can you filter out the projects which are Highly Rated?
-106,,,Medium,,Is their any medium rated property?
-107,,,Low,,Can you exclude the low rated properties?
+18,,,Ready to Move,Are you specifically looking for Ready-to-Move-In options?,Can you filter the options to show only ready to move in properties?
+19,,Price,3,How much are you willing to invest in the project?,What's the price of this property?
+20,,,High,,Can you show some properties in high budget range?
+21,,,Medium,,Are there any options in Medium Budget range?
+22,,,Low,,Can you show some properties in Low Budget range?
+23,,Size,3,Do you have a preferred range of size in mind?,What size options are you having?
+24,,,High,,Can I see the most spacious apartments available?
+25,,,Medium,,What are the medium size ranged apartments available?
+26,,,Low,,Can you exclude the small sized available apartments?
+27,,Amenities,34,Are you also looking for specific amenities available?,What amenities are available?
+28,,,Football,Do you like to play Football?,Are you having any properties offering football?
+29,,,Cricket,Are you a Cricket enthusiast?,Is Cricket available?
+30,,,Badminton,Do you need a badminton court?,I need a badminton court as well.
+31,,,Tennis,Should I show you the properties having Tennis?,Can you suggest some projects providing Tennis?
+32,,,Basketball,Do you play Basketball very often?,Is Basketball provided?
+33,,,Pitch and Putt,Should I filter the properties having Pitch and Putt?,Can you suggest some projects offering Pitch and Putt?
+34,,,Skating Rink,Do you want Skating Rink as a facility?,Are there any options having Skating Rink?
+35,,,Volleyball,Are you a volleyball enthusiast?,Do you any projects having Volleyball?
+36,,,Amphitheatre,Would you like me to show you the options having Amphitheatre?,Is amphitheatre available?
+37,,,Table tennis,Are you interested in playing Table Tennis?,Can you suggest properties offering Table Tennis?
+38,,,Squash,Is squash court a necessity for you?,Is there any options providing Squash?
+39,,,Swimming Pool,Should I provide you with the options having Swimming Pool?,Is Swimming Pool provided?
+40,,,Pool Table,Should I filter the properties providing pool tables?,Do you have any properties providing Pool Table?
+41,,,Snooker Table,Do you want to see properties providing snooker tables?,Can you suggest projects providing Snooker Table?
+42,,,Bowling Alley,Would you prefer options providing bowling alleys?,Is Bowling Alley present?
+43,,,Jogging Track,Do you want a jogging track facility in your project?,Can you suggest projects offering jogging track?
+44,,,Restaurant,Would restaurants inside the society be a preference?,Do you have any properties having Restaurant inside?
+45,,,Yoga Room,Would you be requiring a yoga room?,Are there any projects having Yoga Room?
+46,,,Aerobics Room,Do you prefer options with aerobics room facility?,Is Aerobics Room provided?
+47,,,Dance Room,Is the availability of Dance Room a requirement?,Can you suggest some options having Dance Room?
+48,,,Music Room,Is Music Room availability a preference?,Is music room present?
+49,,,Salon,Would Salons inside the society be a preference?,Do you have any projects having Salon?
+50,,,Spa,Are Spa options a necessity for you?,Is Spa available?
+51,,,Gym,Would you be requiring a gym inside the society?,Can you suggest some projects having Gym?
+52,,,Video Games,Do you want the facility of video games inside the society?,Do you have options offering Video Games?
+53,,,Mini Theatre,Is Mini-theatre facility a preference for you?,Is there any project offering Mini Theatre?
+54,,,Kids Zone,Would you prefer options providing a kid-zone inside the society?,Are there any projects having Kids Zone?
+55,,,Bar,Is the availability of Bars a preference for you?,Do you have any projects having Bar?
+56,,,Cafe,Would Cafes inside the society be a requirement?,Can you show me properties having Cafes?
+57,,,Business Centre,Would a Business Center inside the society a preference?,Can you provide options having Business Centre inside only?
+58,,,Guest Room,Would you be requiring Guest rooms inside the society?,Are there any projects offering Guest Room?
+59,,,Steam Room,Is the availability of Steam rooms a preference?,Is there any steam room facility?
+60,,,Sauna Room,Would Sauna Rooms inside the society be a necessity?,Can you suggest some options having Sauna room?
+61,,,Jacuzzi,Do you prefer options which provide Jacuzzi facility?,Do you have any projects offering Jacuzzi?
+62,,Security,8,Do you want to have a look at the security facilities provided by the society?,What are the Security Options Offered?
+63,,,Cctv Tower,Do you want to see options that have a cctv tower?,Is Cctv tower present in the project?
+64,,,Guards Tower,Can I show you options facilitated with guard rooms?,Can you show me projects having Guard room?
+65,,,Cctv Maingate,Would you like to see alternatives that provide cctv at the main gate?,Is Cctv available at main gate?
+66,,,Guards Maingate,Would you like me to show you options that have guards at the main gate?,Are Guards available at main Gate?
+67,,,Intercom Maingate,Do you want to filter options based on intercom services available at the main gate?,Is intercom available at main gate?
+68,,,Boom barriers Maingate,May I show you options that provide boom barriers at the main gate?,Do you have any alternatives offering Boom barriers at main gate?
+69,,,Tags for Vehicles,Would you prefer societies that provide vehicle tags for residents?,Can you suggest some options providing Tags for vehicle?
+70,,,Stickers for Vehicles,Would you prefer societies that provide stickers for residents' vehicles?,Are Stickers provided for the vehicles?
+71,,Nearby,14,Are there any particular facilities you want nearby?,What are the Nearby Facilities?
+72,,,School,Do you want to see properties with good schools nearby?,Is there any school available?
+73,,,Hospital,Do you prefer options with hospitals nearby?,Can you filter the properties which are close to Hospital?
+74,,,Clubs,Would the nearness to clubs be a preference?,Is there any club nearby?
+75,,,Restaurant,Would you like to see options with good restaurants nearby?,Can you suggest some projects which are close to restaurant?
+76,,,Mall,Would the presence of malls nearby be a necessity?,Can you exclude the projects close to Mall?
+77,,,Pre School,Is the availability of pre-schools nearby a necessity?,Do you have any Projects having Pre School nearby?
+78,,,Daycare,Do you want daycare centers nearby?,Is Daycare facility available nearby?
+79,,,Market,Would you require the availability of markets nearby?,Is there any Market?
+80,,,Pharmacy,Do you require pharmacies nearby?,Can you suggest some properties which are close to pharmacy?
+81,,,Bank,Would you need bank facilities near your selection?,Do you have any properties close to Bank?
+82,,,Atm,Do you prefer the availability of ATMs nearby?,Is there any ATM available nearby?
+83,,,Park,Would you prefer the availability of parks nearby?,Do you have any options which are close to park?
+84,,,Metro Station,Would the nearness to the metro station a preference?,Is there any Metro station nearby?
+85,,,Sports Complex,Would you be requiring a sports complex nearby?,Can you suggest some projects which are close to Sports Complex?
+86,,Specifications,15,Do you have any specific requirements with your choice of project?,What are the specifications?
+87,,,Home Automation,Would you prefer options providing home automation?,Is there any project providing Home Automation?
+88,,,Fully Furnished,Do you want me to show you fully furnished alternatives?,Do you have fully furnished projects?
+89,,,Air Conditioning,Would air-conditioning be a requirement for you?,Are there any options offering Air Conditioning facility?
+90,,,VRV Air Conditioning,Would you prefer options that provide VRV Air Conditioning?,Can you suggest some projects providing VRV Air Conditioning?
+91,,,Modular Kitchen,Is Modular Kitchen a necessity for you?,Is Modular Kitchen provided?
+92,,,Kitchen Dish Washer,Would you be requiring a kitchen dish washer?,Can you provide some options providing Kitchen Dish Washer?
+93,,,Wardrobes,Is the provision of wardrobes a preference for you?,Do you have any properties providing Wardrobes?
+94,,,Shower Cubicle,Would you be requiring a shower cubicle?,Is there any property having Shower Cubicle?
+95,,,Bath Tub,Would you prefer options that provide a bath tub?,Can you provide the details of projects providing Bath tub?
+96,,,Lift,Do you want to look at societies that provide lift services?,Is lift being Provided?
+97,,,Parking,May I filter options that provide parking facilities?,Can you filter out the projects offering Parking?
+98,,,Visitor Parking,Do you want to see options that provide visitor car parking?,Do you have any projects providing Visitor Parking?
+99,,,Power Backup,Is power back-up a necessity for you?,Is Power Backup provided?
+100,,,Maintenance,Do you want to shortlist options based on maintenance facilities provided?,Are there any options providing Maintenance facility?
+101,,,Vastu Compliant,Is Vastu Compliance a necessity for you?,Can you filter out the projects which are Vastu Compliant?
+102,,Rating,3,Can I help you filter properties on the basis of user rating?,What is the rating?
+103,,,High,Do you wish to see options rated best by previous users?,Can you filter out the projects which are Highly Rated?
+104,,,Medium,,Is there any medium rated property?
+105,,,Low,,Can you exclude the low rated properties?
