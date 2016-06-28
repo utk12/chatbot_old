@@ -7,7 +7,7 @@
       "apartment": 0,
       "villa": 0,
       "rowHouse": 0,
-      "studio": 0,
+      "studioApartment": 0,
       "servicedApartment": 0
     }
   },
@@ -31,9 +31,7 @@
     "children": {
       "newlyLaunched": 0,
       "underConstruction": 0,
-      "newlyConstructed": 0,
-      "nearToCompletion": 0,
-      "existing": 0
+      "readyToMove":0
     }
   },
   "price": {
