@@ -65,14 +65,12 @@ def getBestMatch(typed_word,words_to_check,word_counts):
 			match_threshold = result[result_len-1]["score"]
 	result.sort(key=lambda x: x['score'], reverse=True)
 	result = result[:result_len]
-	print json.dumps(result, indent=4)
 	for item in result:
 		if item["word"] in word_counts:
 			item_freq = word_counts[item["word"]]
 			item["score"] += math.log(item_freq+1,10)
 	result.sort(key=lambda x: x['score'], reverse=True)
 	result = result[:result_len]
-	print json.dumps(result, indent=4)
 	return result
 
 
