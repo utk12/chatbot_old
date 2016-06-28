@@ -73,15 +73,15 @@
   "price": {
     "ratioScore": 0,
     "children": {
-      "high": {
+      "price_high": {
         "factorValue": 1,
         "foundValue": 0
       },
-      "medium": {
+      "price_medium": {
         "factorValue": 2,
         "foundValue": 0
       },
-      "low": {
+      "price_low": {
         "factorValue": 3,
         "foundValue": 0
       }
@@ -90,15 +90,15 @@
   "size": {
     "ratioScore": 0,
     "children": {
-      "high": {
+      "size_high": {
         "factorValue": 3,
         "foundValue": 0
       },
-      "medium": {
+      "size_medium": {
         "factorValue": 2,
         "foundValue": 0
       },
-      "low": {
+      "size_low": {
         "factorValue": 1,
         "foundValue": 0
       }
@@ -411,15 +411,15 @@
   "rating": {
     "ratioScore": 0,
     "children": {
-      "high": {
+      "rating_high": {
         "factorValue": 3,
         "foundValue": 0
       },
-      "medium": {
+      "rating_medium": {
         "factorValue": 2,
         "foundValue": 0
       },
-      "low": {
+      "rating_low": {
         "factorValue": 1,
         "foundValue": 0
       }
