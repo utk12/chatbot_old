@@ -12,7 +12,7 @@ def genRandString(n):
 def getProjectId():
     return genRandString(8)
 
-def createJSON(project):
+def createProjectJSON(project):
     with open('Data/project_features.json', 'r') as f:
         data = f.read()
     es.index(index='chatbot', doc_type='projects', id=project, body=data)
@@ -66,6 +66,6 @@ def getProjectVector(project, intent):
     return unit_vec
 
 
-# createJSON(getProjectId())
+# createProjectJSON(getProjectId())
 # updateProject('ugzjugjc')
 # print getProjectVector('ugzjugjc', 'buy')

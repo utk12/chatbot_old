@@ -18,7 +18,7 @@ def get_list_distinct_fields(data,key_field):
 	l1 = [l for l in l1 if l not in [str(m) for m in range(100)]]
 	return l1
 
-def cnvert_underscore_to_camelcase(text):
+def convert_underscore_to_camelcase(text):
 	components = text.split('_')
 	return components[0] + "".join(x.title() for x in components[1:])
 
