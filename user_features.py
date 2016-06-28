@@ -31,17 +31,16 @@ def get_feature_dictionary():
 	with open('Data/user_features.json', 'r') as f:
 		data = json.loads(f.read())
 	feature_dict = {}
-	forin data:
-		feature_dict = {}
-		for category in data:
-			category_new = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), category))
-			feature_dict[category_new] = []
-			for subcategory in data[category]['children']:
-				if 'BHK' in subcategory:
-					subcategory = subcategory.lower()
-				else:
-					subcategory = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), subcategory))
-				feature_dict[category_new].append(subcategory)
+	feature_dict = {}
+	for category in data:
+		category_new = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), category))
+		feature_dict[category_new] = []
+		for subcategory in data[category]['children']:
+			if 'BHK' in subcategory:
+				subcategory = subcategory.lower()
+			else:
+				subcategory = ''.join(map(lambda x: x.lower() if not x.isupper() else "_"+x.lower(), subcategory))
+			feature_dict[category_new].append(subcategory)
 	return feature_dict
 
 
@@ -52,10 +51,9 @@ def updateJson(user, userDict):
 	}
 	es.update(index='chatbot',doc_type='users',id=user,body=body)
 	
-
-
 def updateUser(user, features):
 	userDict = getUserDoc(user)
+	print json.dumps(userDict,indent = 4)
 	for i in features:
 		if i in userDict:
 			userDict[i]['foundValue'] = 1
@@ -95,7 +93,7 @@ def getUserVector(user):
 # print getUserVector('uyzpanbd',
 # updateUser('uyzpanbd', ['security', 'amenities', '2BHK'])
 # print getUserDoc('hndwkoiq')
-# createJSON(getUserId())
+createJSON(getUserId())
 # print get_feature_dictionary()
 
 # feature_dict = get_feature_dictionary()
